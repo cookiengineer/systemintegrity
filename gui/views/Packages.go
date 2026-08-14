@@ -31,14 +31,6 @@ func NewPackages(controller *controllers.App) *Packages {
 	description.SetXAlign(0.0)
 	box.Append(description.AsPtr())
 
-	refresh_button := gtk.NewButton("Re-verify Packages")
-	refresh_button.SetHAlign(gtk.AlignStart)
-	box.Append(refresh_button.AsPtr())
-
-	progress_label := gtk.NewLabel("")
-	progress_label.SetXAlign(0.0)
-	box.Append(progress_label.AsPtr())
-
 	report_wrapper := gtk.NewScrolledWindow()
 	report_wrapper.SetPolicy(gtk.PolicyNever, gtk.PolicyAutomatic)
 	report_wrapper.SetHExpand(true)
@@ -50,6 +42,20 @@ func NewPackages(controller *controllers.App) *Packages {
 
 	report_wrapper.SetChild(report_content.AsPtr())
 	box.Append(report_wrapper.AsPtr())
+
+	footer := gtk.NewBox(gtk.OrientationHorizontal, 8)
+	footer.SetMarginTop(8)
+
+	progress_label := gtk.NewLabel("")
+	progress_label.SetXAlign(0.0)
+	progress_label.SetHExpand(true)
+	footer.Append(progress_label.AsPtr())
+
+	refresh_button := gtk.NewButton("Re-verify Packages")
+	refresh_button.SetHAlign(gtk.AlignEnd)
+	footer.Append(refresh_button.AsPtr())
+
+	box.Append(footer.AsPtr())
 
 	view := &Packages{
 		Box:            box,
@@ -128,27 +134,75 @@ func (view *Packages) render_package_verification(verification structs.PackageVe
 		version = " " + strings.TrimPrefix(verification.Version.String(), "0:")
 	}
 
-	label := fmt.Sprintf("%s%s (%d files)", verification.Name, version, len(verification.Files))
+	label_text := fmt.Sprintf("%s%s (%d files)", verification.Name, version, len(verification.Files))
 
-	wrapper := gtk.NewExpander(label)
+	label := gtk.NewLabel("")
+	label.SetMarkup("<b>" + escape_markup(label_text) + "</b>")
 
-	box := gtk.NewBox(gtk.OrientationVertical, 2)
-	box.SetMarginStart(16)
-	box.SetMarginBottom(4)
+	wrapper := gtk.NewExpander("")
+	wrapper.SetLabelWidget(label.AsPtr())
+	wrapper.SetChild(view.render_verification_table(verification).AsPtr())
+
+	return wrapper
+
+}
+
+func (view *Packages) render_verification_table(verification structs.PackageVerification) *gtk.Grid {
+
+	grid := gtk.NewGrid()
+	grid.SetColumnSpacing(16)
+	grid.SetRowSpacing(4)
+	grid.SetHExpand(true)
+	grid.SetHAlign(gtk.AlignFill)
+	grid.SetMarginTop(16)
+	grid.SetMarginStart(16)
+	grid.SetMarginBottom(16)
+
+	file_header := gtk.NewLabel("")
+	file_header.SetMarkup("<b>File</b>")
+	file_header.SetHAlign(gtk.AlignFill)
+	file_header.SetXAlign(0.0)
+	file_header.SetHExpand(true)
+	grid.Attach(file_header.AsPtr(), 0, 0, 1, 1)
+
+	reason_header := gtk.NewLabel("")
+	reason_header.SetMarkup("<b>Reason</b>")
+	reason_header.SetHAlign(gtk.AlignEnd)
+	reason_header.SetXAlign(1.0)
+	grid.Attach(reason_header.AsPtr(), 1, 0, 1, 1)
+
+	row := 1
 
 	for f := 0; f < len(verification.Files); f++ {
 
 		file := verification.Files[f]
-		line := gtk.NewLabel(file.Path + " - " + file.Reason)
-		line.SetXAlign(0.0)
-		line.SetWrap(true)
 
-		box.Append(line.AsPtr())
+		file_label := gtk.NewLabel(file.Path)
+		file_label.SetHAlign(gtk.AlignFill)
+		file_label.SetXAlign(0.0)
+		file_label.SetHExpand(true)
+		file_label.SetWrap(true)
+		grid.Attach(file_label.AsPtr(), 0, row, 1, 1)
+
+		reason_label := gtk.NewLabel(file.Reason)
+		reason_label.SetHAlign(gtk.AlignEnd)
+		reason_label.SetXAlign(1.0)
+		grid.Attach(reason_label.AsPtr(), 1, row, 1, 1)
+
+		row++
 
 	}
 
-	wrapper.SetChild(box.AsPtr())
+	return grid
 
-	return wrapper
+}
+
+func escape_markup(text string) string {
+
+	text = strings.ReplaceAll(text, "&", "&amp;")
+	text = strings.ReplaceAll(text, "<", "&lt;")
+	text = strings.ReplaceAll(text, ">", "&gt;")
+
+	return text
 
 }

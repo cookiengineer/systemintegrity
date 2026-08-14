@@ -46,3 +46,10 @@ func (e *Expander) SetLabel(label string) {
 	C.gtk_expander_set_label((*C.GtkExpander)(unsafe.Pointer(e.widget)), cLabel)
 
 }
+
+func (e *Expander) SetLabelWidget(child unsafe.Pointer) {
+	C.gtk_expander_set_label_widget(
+		(*C.GtkExpander)(unsafe.Pointer(e.widget)),
+		(*C.GtkWidget)(child),
+	)
+}
