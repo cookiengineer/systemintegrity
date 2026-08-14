@@ -1,0 +1,3688 @@
+{
+	"distributions": {
+		"archlinux": {
+			"name": "archlinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pacman",
+			"vendor": "archlinux",
+			"keywords": {
+				"ID": "arch",
+				"NAME": "Arch Linux"
+			}
+		},
+		"antergos": {
+			"name": "antergos",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pacman",
+			"vendor": "archlinux",
+			"keywords": {
+				"ID": "antergos",
+				"NAME": "Antergos Linux"
+			}
+		},
+		"manjaro": {
+			"name": "manjaro",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pacman",
+			"vendor": "archlinux",
+			"keywords": {
+				"ID": "manjaro",
+				"NAME": "Manjaro Linux"
+			}
+		},
+		"manjaro-arm": {
+			"name": "manjaro-arm",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pacman",
+			"vendor": "archlinux-arm",
+			"keywords": {
+				"ID": "manjaro-arm",
+				"NAME": "Manjaro ARM"
+			}
+		},
+		"gentoolinux": {
+			"name": "gentoolinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "any",
+			"vendor": "gentoolinux",
+			"keywords": {
+				"ID": "gentoo",
+				"NAME": "Gentoo"
+			}
+		},
+		"debian": {
+			"name": "debian",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux"
+			}
+		},
+		"debian-buster": {
+			"name": "debian-buster",
+			"version": "10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-buster",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "buster"
+			}
+		},
+		"debian-bullseye": {
+			"name": "debian-bullseye",
+			"version": "11",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-bullseye",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "bullseye"
+			}
+		},
+		"debian-bookworm": {
+			"name": "debian-bookworm",
+			"version": "12",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-bookworm",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "bookworm"
+			}
+		},
+		"debian-wheezy": {
+			"name": "debian-wheezy",
+			"version": "7",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-wheezy",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "wheezy"
+			}
+		},
+		"debian-jessie": {
+			"name": "debian-jessie",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-jessie",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "jessie"
+			}
+		},
+		"debian-stretch": {
+			"name": "debian-stretch",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "debian-stretch",
+			"keywords": {
+				"ID": "debian",
+				"NAME": "Debian GNU/Linux",
+				"VERSION_CODENAME": "stretch"
+			}
+		},
+		"ubuntu": {
+			"name": "ubuntu",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu"
+			}
+		},
+		"ubuntu-trusty": {
+			"name": "ubuntu-trusty",
+			"version": "14.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "trusty"
+			}
+		},
+		"ubuntu-xenial": {
+			"name": "ubuntu-xenial",
+			"version": "16.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "xenial"
+			}
+		},
+		"ubuntu-bionic": {
+			"name": "ubuntu-bionic",
+			"version": "18.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "bionic"
+			}
+		},
+		"ubuntu-focal": {
+			"name": "ubuntu-focal",
+			"version": "20.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "focal"
+			}
+		},
+		"ubuntu-jammy": {
+			"name": "ubuntu-jammy",
+			"version": "22.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-jammy",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "jammy"
+			}
+		},
+		"ubuntu-lunar": {
+			"name": "ubuntu-lunar",
+			"version": "23.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-lunar",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "lunar"
+			}
+		},
+		"ubuntu-mantic": {
+			"name": "ubuntu-mantic",
+			"version": "23.10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-mantic",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "mantic"
+			}
+		},
+		"ubuntu-noble": {
+			"name": "ubuntu-noble",
+			"version": "24.04",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-noble",
+			"keywords": {
+				"ID": "ubuntu",
+				"NAME": "Ubuntu",
+				"VERSION_CODENAME": "noble"
+			}
+		},
+		"linuxmint": {
+			"name": "linuxmint",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint"
+			}
+		},
+		"linuxmint-qiana": {
+			"name": "linuxmint-qiana",
+			"version": "17.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "17.0"
+			}
+		},
+		"linuxmint-rosa": {
+			"name": "linuxmint-rosa",
+			"version": "17.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "17.3"
+			}
+		},
+		"linuxmint-tina": {
+			"name": "linuxmint-tina",
+			"version": "19.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "19.2"
+			}
+		},
+		"linuxmint-ulyssa": {
+			"name": "linuxmint-ulyssa",
+			"version": "20.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "20.1"
+			}
+		},
+		"linuxmint-una": {
+			"name": "linuxmint-una",
+			"version": "20.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "20.3"
+			}
+		},
+		"linuxmint-rebecca": {
+			"name": "linuxmint-rebecca",
+			"version": "17.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "17.1"
+			}
+		},
+		"linuxmint-sarah": {
+			"name": "linuxmint-sarah",
+			"version": "18.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "18.0"
+			}
+		},
+		"linuxmint-serena": {
+			"name": "linuxmint-serena",
+			"version": "18.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "18.1"
+			}
+		},
+		"linuxmint-ulyana": {
+			"name": "linuxmint-ulyana",
+			"version": "20.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "20.0"
+			}
+		},
+		"linuxmint-vanessa": {
+			"name": "linuxmint-vanessa",
+			"version": "21.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-jammy",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "21.0"
+			}
+		},
+		"linuxmint-sylvia": {
+			"name": "linuxmint-sylvia",
+			"version": "18.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "18.3"
+			}
+		},
+		"linuxmint-tara": {
+			"name": "linuxmint-tara",
+			"version": "19.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "19.0"
+			}
+		},
+		"linuxmint-tessa": {
+			"name": "linuxmint-tessa",
+			"version": "19.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "19.1"
+			}
+		},
+		"linuxmint-rafaela": {
+			"name": "linuxmint-rafaela",
+			"version": "17.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "17.2"
+			}
+		},
+		"linuxmint-sonya": {
+			"name": "linuxmint-sonya",
+			"version": "18.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "18.2"
+			}
+		},
+		"linuxmint-tricia": {
+			"name": "linuxmint-tricia",
+			"version": "19.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "19.3"
+			}
+		},
+		"linuxmint-uma": {
+			"name": "linuxmint-uma",
+			"version": "20.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "20.2"
+			}
+		},
+		"linuxmint-vera": {
+			"name": "linuxmint-vera",
+			"version": "21.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-jammy",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "21.1"
+			}
+		},
+		"linuxmint-victoria": {
+			"name": "linuxmint-victoria",
+			"version": "21.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-jammy",
+			"keywords": {
+				"ID": "linuxmint",
+				"NAME": "Linux Mint",
+				"VERSION_ID": "21.2"
+			}
+		},
+		"trisquel": {
+			"name": "trisquel",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux"
+			}
+		},
+		"trisquel-flidas": {
+			"name": "trisquel-flidas",
+			"version": "8.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-xenial",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux",
+				"UBUNTU_CODENAME": "xenial",
+				"VERSION_CODENAME": "flidas"
+			}
+		},
+		"trisquel-etiona": {
+			"name": "trisquel-etiona",
+			"version": "9.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-bionic",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux",
+				"UBUNTU_CODENAME": "bionic",
+				"VERSION_CODENAME": "etiona"
+			}
+		},
+		"trisquel-nabia": {
+			"name": "trisquel-nabia",
+			"version": "10.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-focal",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux",
+				"UBUNTU_CODENAME": "focal",
+				"VERSION_CODENAME": "nabia"
+			}
+		},
+		"trisquel-aramo": {
+			"name": "trisquel-aramo",
+			"version": "11.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-jammy",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux",
+				"UBUNTU_CODENAME": "jammy",
+				"VERSION_CODENAME": "aramo"
+			}
+		},
+		"trisquel-belenos": {
+			"name": "trisquel-belenos",
+			"version": "7.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apt",
+			"vendor": "ubuntu-trusty",
+			"keywords": {
+				"ID": "trisquel",
+				"NAME": "Trisquel GNU/Linux",
+				"UBUNTU_CODENAME": "trusty",
+				"VERSION_CODENAME": "belenos"
+			}
+		},
+		"redhat": {
+			"name": "redhat",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux"
+			}
+		},
+		"redhat-7": {
+			"name": "redhat-7",
+			"version": "7",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-7",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el7"
+			}
+		},
+		"redhat-8": {
+			"name": "redhat-8",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-8",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el8"
+			}
+		},
+		"redhat-9": {
+			"name": "redhat-9",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-9",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el9"
+			}
+		},
+		"redhat-4": {
+			"name": "redhat-4",
+			"version": "4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-4",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el4"
+			}
+		},
+		"redhat-5": {
+			"name": "redhat-5",
+			"version": "5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-5",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el5"
+			}
+		},
+		"redhat-6": {
+			"name": "redhat-6",
+			"version": "6",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-6",
+			"keywords": {
+				"ID": "rhel",
+				"NAME": "Red Hat Enterprise Linux",
+				"PLATFORM_ID": "platform:el6"
+			}
+		},
+		"centos": {
+			"name": "centos",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat",
+			"keywords": {
+				"ID": "centos"
+			}
+		},
+		"centos-6": {
+			"name": "centos-6",
+			"version": "6",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-6",
+			"keywords": {
+				"ID": "centos",
+				"PLATFORM_ID": "platform:el6",
+				"VERSION_ID": "6"
+			}
+		},
+		"centos-7": {
+			"name": "centos-7",
+			"version": "7",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-7",
+			"keywords": {
+				"ID": "centos",
+				"PLATFORM_ID": "platform:el7",
+				"VERSION_ID": "7"
+			}
+		},
+		"centos-8": {
+			"name": "centos-8",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-8",
+			"keywords": {
+				"ID": "centos",
+				"PLATFORM_ID": "platform:el8",
+				"VERSION_ID": "8"
+			}
+		},
+		"centos-9": {
+			"name": "centos-9",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-9",
+			"keywords": {
+				"ID": "centos",
+				"PLATFORM_ID": "platform:el9",
+				"VERSION_ID": "9"
+			}
+		},
+		"oraclelinux": {
+			"name": "oraclelinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server"
+			}
+		},
+		"oraclelinux-8": {
+			"name": "oraclelinux-8",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-8",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server",
+				"PLATFORM_ID": "platform:el8"
+			}
+		},
+		"oraclelinux-9": {
+			"name": "oraclelinux-9",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-9",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server",
+				"PLATFORM_ID": "platform:el9"
+			}
+		},
+		"oraclelinux-5": {
+			"name": "oraclelinux-5",
+			"version": "5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-5",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server",
+				"PLATFORM_ID": "platform:el5"
+			}
+		},
+		"oraclelinux-6": {
+			"name": "oraclelinux-6",
+			"version": "6",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-6",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server",
+				"PLATFORM_ID": "platform:el6"
+			}
+		},
+		"oraclelinux-7": {
+			"name": "oraclelinux-7",
+			"version": "7",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-7",
+			"keywords": {
+				"ID": "ol",
+				"NAME": "Oracle Linux Server",
+				"PLATFORM_ID": "platform:el7"
+			}
+		},
+		"almalinux": {
+			"name": "almalinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "almalinux",
+			"keywords": {
+				"ID": "almalinux",
+				"NAME": "Alma Linux"
+			}
+		},
+		"almalinux-8": {
+			"name": "almalinux-8",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "almalinux-8",
+			"keywords": {
+				"ID": "almalinux",
+				"NAME": "Alma Linux",
+				"PLATFORM_ID": "platform:el8"
+			}
+		},
+		"almalinux-9": {
+			"name": "almalinux-9",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "almalinux-9",
+			"keywords": {
+				"ID": "almalinux",
+				"NAME": "Alma Linux",
+				"PLATFORM_ID": "platform:el9"
+			}
+		},
+		"rockylinux": {
+			"name": "rockylinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "rockylinux",
+			"keywords": {
+				"ID": "rockylinux",
+				"NAME": "Rocky Linux"
+			}
+		},
+		"rockylinux-obsidian": {
+			"name": "rockylinux-obsidian",
+			"version": "8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "rockylinux-obsidian",
+			"keywords": {
+				"ID": "rockylinux",
+				"NAME": "Rocky Linux",
+				"PLATFORM_ID": "platform:el8"
+			}
+		},
+		"rockylinux-onyx": {
+			"name": "rockylinux-onyx",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "rockylinux-onyx",
+			"keywords": {
+				"ID": "rockylinux",
+				"NAME": "Rocky Linux",
+				"PLATFORM_ID": "platform:el9"
+			}
+		},
+		"fedora": {
+			"name": "fedora",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora",
+			"keywords": {
+				"ID": "fedora"
+			}
+		},
+		"fedora-24": {
+			"name": "fedora-24",
+			"version": "24",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-24",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f24",
+				"VERSION_ID": "24"
+			}
+		},
+		"fedora-27": {
+			"name": "fedora-27",
+			"version": "27",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-27",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f27",
+				"VERSION_ID": "27"
+			}
+		},
+		"fedora-36": {
+			"name": "fedora-36",
+			"version": "36",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-36",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f36",
+				"VERSION_ID": "36"
+			}
+		},
+		"fedora-22": {
+			"name": "fedora-22",
+			"version": "22",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-22",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f22",
+				"VERSION_ID": "22"
+			}
+		},
+		"fedora-23": {
+			"name": "fedora-23",
+			"version": "23",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-23",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f23",
+				"VERSION_ID": "23"
+			}
+		},
+		"fedora-26": {
+			"name": "fedora-26",
+			"version": "26",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-26",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f26",
+				"VERSION_ID": "26"
+			}
+		},
+		"fedora-29": {
+			"name": "fedora-29",
+			"version": "29",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-29",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f29",
+				"VERSION_ID": "29"
+			}
+		},
+		"fedora-31": {
+			"name": "fedora-31",
+			"version": "31",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-31",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f31",
+				"VERSION_ID": "31"
+			}
+		},
+		"fedora-38": {
+			"name": "fedora-38",
+			"version": "38",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-38",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f38",
+				"VERSION_ID": "38"
+			}
+		},
+		"fedora-39": {
+			"name": "fedora-39",
+			"version": "39",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-39",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f39",
+				"VERSION_ID": "39"
+			}
+		},
+		"fedora-40": {
+			"name": "fedora-40",
+			"version": "40",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-40",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f40",
+				"VERSION_ID": "40"
+			}
+		},
+		"fedora-25": {
+			"name": "fedora-25",
+			"version": "25",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-25",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f25",
+				"VERSION_ID": "25"
+			}
+		},
+		"fedora-30": {
+			"name": "fedora-30",
+			"version": "30",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-30",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f30",
+				"VERSION_ID": "30"
+			}
+		},
+		"fedora-32": {
+			"name": "fedora-32",
+			"version": "32",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-32",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f32",
+				"VERSION_ID": "32"
+			}
+		},
+		"fedora-34": {
+			"name": "fedora-34",
+			"version": "34",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-34",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f34",
+				"VERSION_ID": "34"
+			}
+		},
+		"fedora-35": {
+			"name": "fedora-35",
+			"version": "35",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-35",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f35",
+				"VERSION_ID": "35"
+			}
+		},
+		"fedora-37": {
+			"name": "fedora-37",
+			"version": "37",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-37",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f37",
+				"VERSION_ID": "37"
+			}
+		},
+		"fedora-28": {
+			"name": "fedora-28",
+			"version": "28",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-28",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f28",
+				"VERSION_ID": "28"
+			}
+		},
+		"fedora-33": {
+			"name": "fedora-33",
+			"version": "33",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-33",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f33",
+				"VERSION_ID": "33"
+			}
+		},
+		"fedora-21": {
+			"name": "fedora-21",
+			"version": "21",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "fedora-21",
+			"keywords": {
+				"ID": "fedora",
+				"PLATFORM_ID": "platform:f21",
+				"VERSION_ID": "21"
+			}
+		},
+		"opensuse": {
+			"name": "opensuse",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse"
+			}
+		},
+		"opensuse-tumbleweed": {
+			"name": "opensuse-tumbleweed",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse",
+			"keywords": {
+				"ID": "opensuse-tumbleweed",
+				"ID_LIKE": "opensuse suse",
+				"NAME": "openSUSE Tumbleweed"
+			}
+		},
+		"opensuse-11.2": {
+			"name": "opensuse-11.2",
+			"version": "11.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-11.2",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "11.2"
+			}
+		},
+		"opensuse-11.4": {
+			"name": "opensuse-11.4",
+			"version": "11.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-11.4",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "11.4"
+			}
+		},
+		"opensuse-13.2": {
+			"name": "opensuse-13.2",
+			"version": "13.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-13.2",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "13.2"
+			}
+		},
+		"opensuse-leap-15.1": {
+			"name": "opensuse-leap-15.1",
+			"version": "15.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.1",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.1"
+			}
+		},
+		"opensuse-leap-15.2": {
+			"name": "opensuse-leap-15.2",
+			"version": "15.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.2",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.2"
+			}
+		},
+		"opensuse-leap-15.4": {
+			"name": "opensuse-leap-15.4",
+			"version": "15.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.4",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.4"
+			}
+		},
+		"opensuse-11.0": {
+			"name": "opensuse-11.0",
+			"version": "11.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-11.0",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "11.0"
+			}
+		},
+		"opensuse-11.1": {
+			"name": "opensuse-11.1",
+			"version": "11.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-11.1",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "11.1"
+			}
+		},
+		"opensuse-11.3": {
+			"name": "opensuse-11.3",
+			"version": "11.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-11.3",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "11.3"
+			}
+		},
+		"opensuse-leap-42.2": {
+			"name": "opensuse-leap-42.2",
+			"version": "42.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-42.2",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "42.2"
+			}
+		},
+		"opensuse-leap-42.3": {
+			"name": "opensuse-leap-42.3",
+			"version": "42.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-42.3",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "42.3"
+			}
+		},
+		"opensuse-10.2": {
+			"name": "opensuse-10.2",
+			"version": "10.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-10.2",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "10.2"
+			}
+		},
+		"opensuse-12.1": {
+			"name": "opensuse-12.1",
+			"version": "12.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-12.1",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "12.1"
+			}
+		},
+		"opensuse-12.2": {
+			"name": "opensuse-12.2",
+			"version": "12.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-12.2",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "12.2"
+			}
+		},
+		"opensuse-13.1": {
+			"name": "opensuse-13.1",
+			"version": "13.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-13.1",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "13.1"
+			}
+		},
+		"opensuse-leap-15.0": {
+			"name": "opensuse-leap-15.0",
+			"version": "15.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.0",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.0"
+			}
+		},
+		"opensuse-leap-15.3": {
+			"name": "opensuse-leap-15.3",
+			"version": "15.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.3",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.3"
+			}
+		},
+		"opensuse-leap-15.5": {
+			"name": "opensuse-leap-15.5",
+			"version": "15.5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-15.5",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "15.5"
+			}
+		},
+		"opensuse-10.3": {
+			"name": "opensuse-10.3",
+			"version": "10.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-10.3",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "10.3"
+			}
+		},
+		"opensuse-12.3": {
+			"name": "opensuse-12.3",
+			"version": "12.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-12.3",
+			"keywords": {
+				"ID": "opensuse",
+				"ID_LIKE": "suse",
+				"VERSION_ID": "12.3"
+			}
+		},
+		"opensuse-leap-13.2": {
+			"name": "opensuse-leap-13.2",
+			"version": "13.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-13.2",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "13.2"
+			}
+		},
+		"opensuse-leap-42.1": {
+			"name": "opensuse-leap-42.1",
+			"version": "42.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "opensuse-leap-42.1",
+			"keywords": {
+				"ID": "opensuse",
+				"NAME": "openSUSE Leap",
+				"VERSION_ID": "42.1"
+			}
+		},
+		"suse-desktop": {
+			"name": "suse-desktop",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse",
+			"keywords": {
+				"ID": "sled",
+				"NAME": "SLED"
+			}
+		},
+		"suse-server": {
+			"name": "suse-server",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES"
+			}
+		},
+		"suse-desktop-11": {
+			"name": "suse-desktop-11",
+			"version": "11",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-desktop-11",
+			"keywords": {
+				"ID": "sled",
+				"NAME": "SLED",
+				"VERSION_ID": "11"
+			}
+		},
+		"suse-desktop-10": {
+			"name": "suse-desktop-10",
+			"version": "10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-desktop-10",
+			"keywords": {
+				"ID": "sled",
+				"NAME": "SLED",
+				"VERSION_ID": "10"
+			}
+		},
+		"suse-server-10": {
+			"name": "suse-server-10",
+			"version": "10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-server-10",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES",
+				"VERSION_ID": "10"
+			}
+		},
+		"suse-server-9": {
+			"name": "suse-server-9",
+			"version": "9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-server-9",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES",
+				"VERSION_ID": "9"
+			}
+		},
+		"suse-desktop-15": {
+			"name": "suse-desktop-15",
+			"version": "15",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-desktop-15",
+			"keywords": {
+				"ID": "sled",
+				"NAME": "SLED",
+				"VERSION_ID": "15"
+			}
+		},
+		"suse-desktop-12": {
+			"name": "suse-desktop-12",
+			"version": "12",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-desktop-12",
+			"keywords": {
+				"ID": "sled",
+				"NAME": "SLED",
+				"VERSION_ID": "12"
+			}
+		},
+		"suse-server-15": {
+			"name": "suse-server-15",
+			"version": "15",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-server-15",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES",
+				"VERSION_ID": "15"
+			}
+		},
+		"suse-server-12": {
+			"name": "suse-server-12",
+			"version": "12",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-server-12",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES",
+				"VERSION_ID": "12"
+			}
+		},
+		"suse-server-11": {
+			"name": "suse-server-11",
+			"version": "11",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "zypper",
+			"vendor": "suse-server-11",
+			"keywords": {
+				"ID": "sles",
+				"NAME": "SLES",
+				"VERSION_ID": "11"
+			}
+		},
+		"alpinelinux": {
+			"name": "alpinelinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux"
+			}
+		},
+		"alpinelinux-3.10": {
+			"name": "alpinelinux-3.10",
+			"version": "3.10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.10",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.10"
+			}
+		},
+		"alpinelinux-3.11": {
+			"name": "alpinelinux-3.11",
+			"version": "3.11",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.11",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.11"
+			}
+		},
+		"alpinelinux-3.12": {
+			"name": "alpinelinux-3.12",
+			"version": "3.12",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.12",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.12"
+			}
+		},
+		"alpinelinux-3.14": {
+			"name": "alpinelinux-3.14",
+			"version": "3.14",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.14",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.14"
+			}
+		},
+		"alpinelinux-3.16": {
+			"name": "alpinelinux-3.16",
+			"version": "3.16",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.16",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.16"
+			}
+		},
+		"alpinelinux-3.13": {
+			"name": "alpinelinux-3.13",
+			"version": "3.13",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.13",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.13"
+			}
+		},
+		"alpinelinux-3.15": {
+			"name": "alpinelinux-3.15",
+			"version": "3.15",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.15",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.15"
+			}
+		},
+		"alpinelinux-3.17": {
+			"name": "alpinelinux-3.17",
+			"version": "3.17",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.17",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.17"
+			}
+		},
+		"alpinelinux-3.18": {
+			"name": "alpinelinux-3.18",
+			"version": "3.18",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "apk",
+			"vendor": "alpinelinux-3.18",
+			"keywords": {
+				"ID": "alpine",
+				"NAME": "Alpine Linux",
+				"PRETTY_NAME": "Alpine Linux v3.18"
+			}
+		},
+		"amazonlinux": {
+			"name": "amazonlinux",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "centos",
+			"keywords": {
+				"ID": "amzn",
+				"NAME": "Amazon Linux"
+			}
+		},
+		"amazonlinux-1": {
+			"name": "amazonlinux-1",
+			"version": "1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-6",
+			"keywords": {
+				"ID": "amzn",
+				"NAME": "Amazon Linux",
+				"VERSION_ID": "1"
+			}
+		},
+		"amazonlinux-2": {
+			"name": "amazonlinux-2",
+			"version": "2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "redhat-7",
+			"keywords": {
+				"ID": "amzn",
+				"NAME": "Amazon Linux",
+				"VERSION_ID": "2"
+			}
+		},
+		"amazonlinux-2022": {
+			"name": "amazonlinux-2022",
+			"version": "2022",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "",
+			"keywords": {
+				"ID": "amzn",
+				"NAME": "Amazon Linux",
+				"VERSION_ID": "2022"
+			}
+		},
+		"amazonlinux-2023": {
+			"name": "amazonlinux-2023",
+			"version": "2023",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "dnf",
+			"vendor": "centos-9",
+			"keywords": {
+				"ID": "amzn",
+				"NAME": "Amazon Linux",
+				"VERSION_ID": "2023"
+			}
+		},
+		"cblmariner": {
+			"name": "cblmariner",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "cblmariner",
+			"keywords": {
+				"ID": "mariner",
+				"NAME": "Common Base Linux Mariner"
+			}
+		},
+		"cblmariner-1": {
+			"name": "cblmariner-1",
+			"version": "1.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "cblmariner-1",
+			"keywords": {
+				"ID": "mariner",
+				"NAME": "Common Base Linux Mariner",
+				"VERSION_ID": "1.0"
+			}
+		},
+		"cblmariner-2": {
+			"name": "cblmariner-2",
+			"version": "2.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "cblmariner-2",
+			"keywords": {
+				"ID": "mariner",
+				"NAME": "Common Base Linux Mariner",
+				"VERSION_ID": "2.0"
+			}
+		},
+		"photonos": {
+			"name": "photonos",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS"
+			}
+		},
+		"photonos-1": {
+			"name": "photonos-1",
+			"version": "1.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos-1",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS",
+				"VERSION_ID": "1.0"
+			}
+		},
+		"photonos-2": {
+			"name": "photonos-2",
+			"version": "2.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos-2",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS",
+				"VERSION_ID": "2.0"
+			}
+		},
+		"photonos-3": {
+			"name": "photonos-3",
+			"version": "3.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos-3",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS",
+				"VERSION_ID": "3.0"
+			}
+		},
+		"photonos-4": {
+			"name": "photonos-4",
+			"version": "4.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos-4",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS",
+				"VERSION_ID": "4.0"
+			}
+		},
+		"photonos-5": {
+			"name": "photonos-5",
+			"version": "5.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "tdnf",
+			"vendor": "photonos-5",
+			"keywords": {
+				"ID": "photon",
+				"NAME": "VMware Photon OS",
+				"VERSION_ID": "5.0"
+			}
+		},
+		"freebsd": {
+			"name": "freebsd",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD"
+			}
+		},
+		"freebsd-9.2": {
+			"name": "freebsd-9.2",
+			"version": "9.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-9.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "9.2"
+			}
+		},
+		"freebsd-12.0": {
+			"name": "freebsd-12.0",
+			"version": "12.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-12.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "12.0"
+			}
+		},
+		"freebsd-4.4": {
+			"name": "freebsd-4.4",
+			"version": "4.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.4"
+			}
+		},
+		"freebsd-10.0": {
+			"name": "freebsd-10.0",
+			"version": "10.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-10.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "10.0"
+			}
+		},
+		"freebsd-12.4": {
+			"name": "freebsd-12.4",
+			"version": "12.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-12.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "12.4"
+			}
+		},
+		"freebsd-3.4": {
+			"name": "freebsd-3.4",
+			"version": "3.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.4"
+			}
+		},
+		"freebsd-4.0": {
+			"name": "freebsd-4.0",
+			"version": "4.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.0"
+			}
+		},
+		"freebsd-7.2": {
+			"name": "freebsd-7.2",
+			"version": "7.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-7.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "7.2"
+			}
+		},
+		"freebsd-3.2": {
+			"name": "freebsd-3.2",
+			"version": "3.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.2"
+			}
+		},
+		"freebsd-3.3": {
+			"name": "freebsd-3.3",
+			"version": "3.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.3"
+			}
+		},
+		"freebsd-5.0": {
+			"name": "freebsd-5.0",
+			"version": "5.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.0"
+			}
+		},
+		"freebsd-6.3": {
+			"name": "freebsd-6.3",
+			"version": "6.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-6.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "6.3"
+			}
+		},
+		"freebsd-8.4": {
+			"name": "freebsd-8.4",
+			"version": "8.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-8.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "8.4"
+			}
+		},
+		"freebsd-9.1": {
+			"name": "freebsd-9.1",
+			"version": "9.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-9.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "9.1"
+			}
+		},
+		"freebsd-13.2": {
+			"name": "freebsd-13.2",
+			"version": "13.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-13.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "13.2"
+			}
+		},
+		"freebsd-7.3": {
+			"name": "freebsd-7.3",
+			"version": "7.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-7.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "7.3"
+			}
+		},
+		"freebsd-10.1": {
+			"name": "freebsd-10.1",
+			"version": "10.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-10.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "10.1"
+			}
+		},
+		"freebsd-11.2": {
+			"name": "freebsd-11.2",
+			"version": "11.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-11.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "11.2"
+			}
+		},
+		"freebsd-13.0": {
+			"name": "freebsd-13.0",
+			"version": "13.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-13.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "13.0"
+			}
+		},
+		"freebsd-4.1": {
+			"name": "freebsd-4.1",
+			"version": "4.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.1"
+			}
+		},
+		"freebsd-5.2": {
+			"name": "freebsd-5.2",
+			"version": "5.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.2"
+			}
+		},
+		"freebsd-8.3": {
+			"name": "freebsd-8.3",
+			"version": "8.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-8.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "8.3"
+			}
+		},
+		"freebsd-9.3": {
+			"name": "freebsd-9.3",
+			"version": "9.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-9.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "9.3"
+			}
+		},
+		"freebsd-3.1": {
+			"name": "freebsd-3.1",
+			"version": "3.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.1"
+			}
+		},
+		"freebsd-4.2": {
+			"name": "freebsd-4.2",
+			"version": "4.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.2"
+			}
+		},
+		"freebsd-4.6": {
+			"name": "freebsd-4.6",
+			"version": "4.6",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.6",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.6"
+			}
+		},
+		"freebsd-4.11": {
+			"name": "freebsd-4.11",
+			"version": "4.11",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.11",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.11"
+			}
+		},
+		"freebsd-8.1": {
+			"name": "freebsd-8.1",
+			"version": "8.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-8.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "8.1"
+			}
+		},
+		"freebsd-3.0": {
+			"name": "freebsd-3.0",
+			"version": "3.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.0"
+			}
+		},
+		"freebsd-5.5": {
+			"name": "freebsd-5.5",
+			"version": "5.5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.5",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.5"
+			}
+		},
+		"freebsd-6.0": {
+			"name": "freebsd-6.0",
+			"version": "6.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-6.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "6.0"
+			}
+		},
+		"freebsd-12.1": {
+			"name": "freebsd-12.1",
+			"version": "12.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-12.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "12.1"
+			}
+		},
+		"freebsd-12.2": {
+			"name": "freebsd-12.2",
+			"version": "12.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-12.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "12.2"
+			}
+		},
+		"freebsd-4.3": {
+			"name": "freebsd-4.3",
+			"version": "4.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.3"
+			}
+		},
+		"freebsd-4.10": {
+			"name": "freebsd-4.10",
+			"version": "4.10",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.10",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.10"
+			}
+		},
+		"freebsd-6.2": {
+			"name": "freebsd-6.2",
+			"version": "6.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-6.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "6.2"
+			}
+		},
+		"freebsd-3.5": {
+			"name": "freebsd-3.5",
+			"version": "3.5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-3.5",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "3.5"
+			}
+		},
+		"freebsd-4.5": {
+			"name": "freebsd-4.5",
+			"version": "4.5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.5",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.5"
+			}
+		},
+		"freebsd-7.0": {
+			"name": "freebsd-7.0",
+			"version": "7.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-7.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "7.0"
+			}
+		},
+		"freebsd-8.0": {
+			"name": "freebsd-8.0",
+			"version": "8.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-8.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "8.0"
+			}
+		},
+		"freebsd-9.0": {
+			"name": "freebsd-9.0",
+			"version": "9.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-9.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "9.0"
+			}
+		},
+		"freebsd-11.1": {
+			"name": "freebsd-11.1",
+			"version": "11.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-11.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "11.1"
+			}
+		},
+		"freebsd-12.3": {
+			"name": "freebsd-12.3",
+			"version": "12.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-12.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "12.3"
+			}
+		},
+		"freebsd-4.9": {
+			"name": "freebsd-4.9",
+			"version": "4.9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.9",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.9"
+			}
+		},
+		"freebsd-5.3": {
+			"name": "freebsd-5.3",
+			"version": "5.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.3"
+			}
+		},
+		"freebsd-11.3": {
+			"name": "freebsd-11.3",
+			"version": "11.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-11.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "11.3"
+			}
+		},
+		"freebsd-11.4": {
+			"name": "freebsd-11.4",
+			"version": "11.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-11.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "11.4"
+			}
+		},
+		"freebsd-13.1": {
+			"name": "freebsd-13.1",
+			"version": "13.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-13.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "13.1"
+			}
+		},
+		"freebsd-4.7": {
+			"name": "freebsd-4.7",
+			"version": "4.7",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.7",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.7"
+			}
+		},
+		"freebsd-5.1": {
+			"name": "freebsd-5.1",
+			"version": "5.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.1"
+			}
+		},
+		"freebsd-7.4": {
+			"name": "freebsd-7.4",
+			"version": "7.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-7.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "7.4"
+			}
+		},
+		"freebsd-8.2": {
+			"name": "freebsd-8.2",
+			"version": "8.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-8.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "8.2"
+			}
+		},
+		"freebsd-10.3": {
+			"name": "freebsd-10.3",
+			"version": "10.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-10.3",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "10.3"
+			}
+		},
+		"freebsd-4.8": {
+			"name": "freebsd-4.8",
+			"version": "4.8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-4.8",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "4.8"
+			}
+		},
+		"freebsd-5.4": {
+			"name": "freebsd-5.4",
+			"version": "5.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-5.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "5.4"
+			}
+		},
+		"freebsd-6.4": {
+			"name": "freebsd-6.4",
+			"version": "6.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-6.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "6.4"
+			}
+		},
+		"freebsd-10.2": {
+			"name": "freebsd-10.2",
+			"version": "10.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-10.2",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "10.2"
+			}
+		},
+		"freebsd-7.1": {
+			"name": "freebsd-7.1",
+			"version": "7.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-7.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "7.1"
+			}
+		},
+		"freebsd-10.4": {
+			"name": "freebsd-10.4",
+			"version": "10.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-10.4",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "10.4"
+			}
+		},
+		"freebsd-11.0": {
+			"name": "freebsd-11.0",
+			"version": "11.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-11.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "11.0"
+			}
+		},
+		"freebsd-6.1": {
+			"name": "freebsd-6.1",
+			"version": "6.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-6.1",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "6.1"
+			}
+		},
+		"freebsd-14.0": {
+			"name": "freebsd-14.0",
+			"version": "14.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkg",
+			"vendor": "freebsd-14.0",
+			"keywords": {
+				"ID": "freebsd",
+				"NAME": "FreeBSD",
+				"VERSION_ID": "14.0"
+			}
+		},
+		"netbsd": {
+			"name": "netbsd",
+			"version": "any",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD"
+			}
+		},
+		"netbsd-1.0": {
+			"name": "netbsd-1.0",
+			"version": "1.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.0"
+			}
+		},
+		"netbsd-1.3": {
+			"name": "netbsd-1.3",
+			"version": "1.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.3",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.3"
+			}
+		},
+		"netbsd-1.4": {
+			"name": "netbsd-1.4",
+			"version": "1.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.4",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.4"
+			}
+		},
+		"netbsd-7.2": {
+			"name": "netbsd-7.2",
+			"version": "7.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-7.2",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "7.2"
+			}
+		},
+		"netbsd-9.4": {
+			"name": "netbsd-9.4",
+			"version": "9.4",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-9.4",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "9.4"
+			}
+		},
+		"netbsd-2.1": {
+			"name": "netbsd-2.1",
+			"version": "2.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-2.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "2.1"
+			}
+		},
+		"netbsd-8.0": {
+			"name": "netbsd-8.0",
+			"version": "8.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-8.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "8.0"
+			}
+		},
+		"netbsd-8.1": {
+			"name": "netbsd-8.1",
+			"version": "8.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-8.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "8.1"
+			}
+		},
+		"netbsd-5.1": {
+			"name": "netbsd-5.1",
+			"version": "5.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-5.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "5.1"
+			}
+		},
+		"netbsd-6.0": {
+			"name": "netbsd-6.0",
+			"version": "6.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-6.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "6.0"
+			}
+		},
+		"netbsd-9.0": {
+			"name": "netbsd-9.0",
+			"version": "9.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-9.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "9.0"
+			}
+		},
+		"netbsd-9.2": {
+			"name": "netbsd-9.2",
+			"version": "9.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-9.2",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "9.2"
+			}
+		},
+		"netbsd-10.0": {
+			"name": "netbsd-10.0",
+			"version": "10.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-10.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "10.0"
+			}
+		},
+		"netbsd-0.9": {
+			"name": "netbsd-0.9",
+			"version": "0.9",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-0.9",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "0.9"
+			}
+		},
+		"netbsd-1.6": {
+			"name": "netbsd-1.6",
+			"version": "1.6",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.6",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.6"
+			}
+		},
+		"netbsd-3.1": {
+			"name": "netbsd-3.1",
+			"version": "3.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-3.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "3.1"
+			}
+		},
+		"netbsd-7.0": {
+			"name": "netbsd-7.0",
+			"version": "7.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-7.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "7.0"
+			}
+		},
+		"netbsd-8.2": {
+			"name": "netbsd-8.2",
+			"version": "8.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-8.2",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "8.2"
+			}
+		},
+		"netbsd-9.1": {
+			"name": "netbsd-9.1",
+			"version": "9.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-9.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "9.1"
+			}
+		},
+		"netbsd-7.1": {
+			"name": "netbsd-7.1",
+			"version": "7.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-7.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "7.1"
+			}
+		},
+		"netbsd-9.3": {
+			"name": "netbsd-9.3",
+			"version": "9.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-9.3",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "9.3"
+			}
+		},
+		"netbsd-1.2": {
+			"name": "netbsd-1.2",
+			"version": "1.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.2",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.2"
+			}
+		},
+		"netbsd-5.0": {
+			"name": "netbsd-5.0",
+			"version": "5.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-5.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "5.0"
+			}
+		},
+		"netbsd-5.2": {
+			"name": "netbsd-5.2",
+			"version": "5.2",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-5.2",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "5.2"
+			}
+		},
+		"netbsd-6.1": {
+			"name": "netbsd-6.1",
+			"version": "6.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-6.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "6.1"
+			}
+		},
+		"netbsd-8.3": {
+			"name": "netbsd-8.3",
+			"version": "8.3",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-8.3",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "8.3"
+			}
+		},
+		"netbsd-0.8": {
+			"name": "netbsd-0.8",
+			"version": "0.8",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-0.8",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "0.8"
+			}
+		},
+		"netbsd-1.1": {
+			"name": "netbsd-1.1",
+			"version": "1.1",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.1",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.1"
+			}
+		},
+		"netbsd-1.5": {
+			"name": "netbsd-1.5",
+			"version": "1.5",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-1.5",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "1.5"
+			}
+		},
+		"netbsd-3.0": {
+			"name": "netbsd-3.0",
+			"version": "3.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-3.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "3.0"
+			}
+		},
+		"netbsd-4.0": {
+			"name": "netbsd-4.0",
+			"version": "4.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-4.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "4.0"
+			}
+		},
+		"netbsd-2.0": {
+			"name": "netbsd-2.0",
+			"version": "2.0",
+			"kernel": "any",
+			"kernel_architecture": "any",
+			"kernel_modules": [],
+			"kernel_version": "any",
+			"manager": "pkgsrc",
+			"vendor": "netbsd-2.0",
+			"keywords": {
+				"ID": "netbsd",
+				"NAME": "NetBSD",
+				"VERSION_ID": "2.0"
+			}
+		}
+	}
+}

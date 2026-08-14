@@ -1,0 +1,4789 @@
+{
+	"countries": {
+		"AD": {
+			"iso": "AD",
+			"name": "Andorra",
+			"continent": "Europe",
+			"geolocation": "geo:42.5,1.6",
+			"population": 73101,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Andorra",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AE": {
+			"iso": "AE",
+			"name": "United Arab Emirates",
+			"continent": "Asia",
+			"geolocation": "geo:24,54",
+			"population": 12176400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Dubai",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AF": {
+			"iso": "AF",
+			"name": "Afghanistan",
+			"continent": "Asia",
+			"geolocation": "geo:33,65",
+			"population": 9237489,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Kabul",
+					"offset": "+04:30"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"AG": {
+			"iso": "AG",
+			"name": "Antigua and Barbuda",
+			"continent": "\"North America\"",
+			"geolocation": "geo:17.05,-61.8",
+			"population": 79731,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Antigua",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"AI": {
+			"iso": "AI",
+			"name": "Anguilla",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.25,-63.1667",
+			"population": 13665,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Anguilla",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"AL": {
+			"iso": "AL",
+			"name": "Albania",
+			"continent": "Europe",
+			"geolocation": "geo:41,20",
+			"population": 2191467,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Tirane",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AM": {
+			"iso": "AM",
+			"name": "Armenia",
+			"continent": "Asia",
+			"geolocation": "geo:40,45",
+			"population": 2288566,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Yerevan",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AO": {
+			"iso": "AO",
+			"name": "Angola",
+			"continent": "Africa",
+			"geolocation": "geo:-12.5,18.5",
+			"population": 8980670,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Luanda",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"AQ": {
+			"iso": "AQ",
+			"name": "Antarctica",
+			"continent": "Antarctica",
+			"geolocation": "geo:-90,0",
+			"population": 2700,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Antarctica/Casey",
+					"offset": "+11:00"
+				},
+				{
+					"name": "Antarctica/Davis",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Antarctica/DumontDUrville",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Antarctica/Mawson",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Antarctica/McMurdo",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Antarctica/Palmer",
+					"offset": "-03:00"
+				},
+				{
+					"name": "Antarctica/Rothera",
+					"offset": "-03:00"
+				},
+				{
+					"name": "Antarctica/South_Pole",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Antarctica/Syowa",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Antarctica/Vostok",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"AR": {
+			"iso": "AR",
+			"name": "Argentina",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-34,-64",
+			"population": 42000000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Argentina/Buenos_Aires",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Catamarca",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Cordoba",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Jujuy",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/La_Rioja",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Mendoza",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Rio_Gallegos",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Salta",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/San_Juan",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/San_Luis",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Tucuman",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Argentina/Ushuaia",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"AS": {
+			"iso": "AS",
+			"name": "American Samoa",
+			"continent": "Oceania",
+			"geolocation": "geo:-14.3333,-170",
+			"population": 34800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Pago_Pago",
+					"offset": "-11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"AT": {
+			"iso": "AT",
+			"name": "Austria",
+			"continent": "Europe",
+			"geolocation": "geo:47.3333,13.3333",
+			"population": 7999515,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Vienna",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AU": {
+			"iso": "AU",
+			"name": "Australia",
+			"continent": "Oceania",
+			"geolocation": "geo:-27,133",
+			"population": 23391152,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Antarctica/Macquarie",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Adelaide",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Australia/Brisbane",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Broken_Hill",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Australia/Currie",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Darwin",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Australia/Eucla",
+					"offset": "+08:45"
+				},
+				{
+					"name": "Australia/Hobart",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Lindeman",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Lord_Howe",
+					"offset": "+10:30"
+				},
+				{
+					"name": "Australia/Melbourne",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Australia/Perth",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Australia/Sydney",
+					"offset": "+10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"AW": {
+			"iso": "AW",
+			"name": "Aruba",
+			"continent": "\"North America\"",
+			"geolocation": "geo:12.5,-69.9667",
+			"population": 111800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Aruba",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"AX": {
+			"iso": "AX",
+			"name": "Aland Islands",
+			"continent": "Europe",
+			"geolocation": "geo:60.115838,20.221622",
+			"population": 13200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Mariehamn",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"AZ": {
+			"iso": "AZ",
+			"name": "Azerbaijan",
+			"continent": "Asia",
+			"geolocation": "geo:40.5,47.5",
+			"population": 8745304,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Baku",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BA": {
+			"iso": "BA",
+			"name": "Bosnia and Herzegovina",
+			"continent": "Europe",
+			"geolocation": "geo:44,18",
+			"population": 2828846,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Sarajevo",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BB": {
+			"iso": "BB",
+			"name": "Barbados",
+			"continent": "\"North America\"",
+			"geolocation": "geo:13.1667,-59.5333",
+			"population": 228717,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Barbados",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"BD": {
+			"iso": "BD",
+			"name": "Bangladesh",
+			"continent": "Asia",
+			"geolocation": "geo:24,90",
+			"population": 129180000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Dhaka",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"BE": {
+			"iso": "BE",
+			"name": "Belgium",
+			"continent": "Europe",
+			"geolocation": "geo:50.8333,4",
+			"population": 10738055,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Brussels",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BF": {
+			"iso": "BF",
+			"name": "Burkina Faso",
+			"continent": "Africa",
+			"geolocation": "geo:13,-2",
+			"population": 4594265,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Ouagadougou",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"BG": {
+			"iso": "BG",
+			"name": "Bulgaria",
+			"continent": "Europe",
+			"geolocation": "geo:43,25",
+			"population": 4805716,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Sofia",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BH": {
+			"iso": "BH",
+			"name": "Bahrain",
+			"continent": "Asia",
+			"geolocation": "geo:26,50.55",
+			"population": 1804583,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Bahrain",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BI": {
+			"iso": "BI",
+			"name": "Burundi",
+			"continent": "Africa",
+			"geolocation": "geo:-3.5,30",
+			"population": 1606122,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Bujumbura",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"BJ": {
+			"iso": "BJ",
+			"name": "Benin",
+			"continent": "Africa",
+			"geolocation": "geo:9.5,2.25",
+			"population": 3801758,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Porto-Novo",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"BL": {
+			"iso": "BL",
+			"name": "Saint Barthelemy",
+			"continent": "\"North America\"",
+			"geolocation": "geo:17.9139,-62.8339",
+			"population": 7079,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/St_Barthelemy",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"BM": {
+			"iso": "BM",
+			"name": "Bermuda",
+			"continent": "\"North America\"",
+			"geolocation": "geo:32.3333,-64.75",
+			"population": 61969,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Bermuda",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"BN": {
+			"iso": "BN",
+			"name": "Brunei",
+			"continent": "Asia",
+			"geolocation": "geo:4.5,114.6667",
+			"population": 531800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Brunei",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"BO": {
+			"iso": "BO",
+			"name": "Bolivia",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-17,-65",
+			"population": 8902400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/La_Paz",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"BQ": {
+			"iso": "BQ",
+			"name": "Bonaire, Sint Eustatius, and Saba",
+			"continent": "\"North America\"",
+			"geolocation": "geo:12.1683718,-68.308183",
+			"population": 20956,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Kralendijk",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"BR": {
+			"iso": "BR",
+			"name": "Brazil",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-10,-55",
+			"population": 178100000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Araguaina",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Bahia",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Belem",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Boa_Vista",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Campo_Grande",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Cuiaba",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Eirunepe",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Fortaleza",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Maceio",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Manaus",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Noronha",
+					"offset": "-02:00"
+				},
+				{
+					"name": "America/Porto_Velho",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Recife",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Rio_Branco",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Santarem",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Sao_Paulo",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"BS": {
+			"iso": "BS",
+			"name": "Bahamas",
+			"continent": "\"North America\"",
+			"geolocation": "geo:24.25,-76",
+			"population": 347467,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Nassau",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"BT": {
+			"iso": "BT",
+			"name": "Bhutan",
+			"continent": "Asia",
+			"geolocation": "geo:27.5,90.5",
+			"population": 583900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Thimphu",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"BV": {
+			"iso": "BV",
+			"name": "Bouvet Island",
+			"continent": "Antarctica",
+			"geolocation": "geo:-54.4333,3.4",
+			"population": 0,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"BW": {
+			"iso": "BW",
+			"name": "Botswana",
+			"continent": "Africa",
+			"geolocation": "geo:-22,24",
+			"population": 1247000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Gaborone",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"BY": {
+			"iso": "BY",
+			"name": "Belarus",
+			"continent": "Europe",
+			"geolocation": "geo:53,28",
+			"population": 8027681,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Minsk",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"BZ": {
+			"iso": "BZ",
+			"name": "Belize",
+			"continent": "\"North America\"",
+			"geolocation": "geo:17.25,-88.75",
+			"population": 305200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Belize",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CA": {
+			"iso": "CA",
+			"name": "Canada",
+			"continent": "\"North America\"",
+			"geolocation": "geo:60,-95",
+			"population": 37133414,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Atikokan",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Blanc-Sablon",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Cambridge_Bay",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Creston",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Dawson",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Dawson_Creek",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Edmonton",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Glace_Bay",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Goose_Bay",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Halifax",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Inuvik",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Iqaluit",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Moncton",
+					"offset": "-03:00"
+				},
+				{
+					"name": "America/Montreal",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Nipigon",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Pangnirtung",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Rainy_River",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Rankin_Inlet",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Regina",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Resolute",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/St_Johns",
+					"offset": "-02:00"
+				},
+				{
+					"name": "America/Swift_Current",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Thunder_Bay",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Toronto",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Vancouver",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Whitehorse",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Winnipeg",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Yellowknife",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"CC": {
+			"iso": "CC",
+			"name": "Cocos (Keeling) Islands",
+			"continent": "Asia",
+			"geolocation": "geo:-12.5,96.8333",
+			"population": 414,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Cocos",
+					"offset": "+06:30"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"CD": {
+			"iso": "CD",
+			"name": "DR Congo",
+			"continent": "Africa",
+			"geolocation": "geo:0,25",
+			"population": 16355917,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Kinshasa",
+					"offset": "+01:00"
+				},
+				{
+					"name": "Africa/Lubumbashi",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CF": {
+			"iso": "CF",
+			"name": "Central African Republic",
+			"continent": "Africa",
+			"geolocation": "geo:7,21",
+			"population": 557085,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Bangui",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CG": {
+			"iso": "CG",
+			"name": "Congo Republic",
+			"continent": "Africa",
+			"geolocation": "geo:-1,15",
+			"population": 930800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Brazzaville",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CH": {
+			"iso": "CH",
+			"name": "Switzerland",
+			"continent": "Europe",
+			"geolocation": "geo:47,8",
+			"population": 8426800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Zurich",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"CI": {
+			"iso": "CI",
+			"name": "Ivory Coast",
+			"continent": "Africa",
+			"geolocation": "geo:8,-5",
+			"population": 12253653,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Abidjan",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CK": {
+			"iso": "CK",
+			"name": "Cook Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:-21.2333,-159.7667",
+			"population": 13100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Rarotonga",
+					"offset": "-10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"CL": {
+			"iso": "CL",
+			"name": "Chile",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-30,-71",
+			"population": 18835100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Santiago",
+					"offset": "-04:00"
+				},
+				{
+					"name": "Pacific/Easter",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CM": {
+			"iso": "CM",
+			"name": "Cameroon",
+			"continent": "Africa",
+			"geolocation": "geo:6,12",
+			"population": 9158422,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Douala",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CN": {
+			"iso": "CN",
+			"name": "China",
+			"continent": "Asia",
+			"geolocation": "geo:35,105",
+			"population": 1010740000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Chongqing",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Harbin",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Kashgar",
+					"offset": "+06:00"
+				},
+				{
+					"name": "Asia/Shanghai",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Urumqi",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"CO": {
+			"iso": "CO",
+			"name": "Colombia",
+			"continent": "\"South America\"",
+			"geolocation": "geo:4,-72",
+			"population": 43416500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Bogota",
+					"offset": "-05:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CR": {
+			"iso": "CR",
+			"name": "Costa Rica",
+			"continent": "\"North America\"",
+			"geolocation": "geo:10,-84",
+			"population": 4425600,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Costa_Rica",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CU": {
+			"iso": "CU",
+			"name": "Cuba",
+			"continent": "\"North America\"",
+			"geolocation": "geo:21.5,-80",
+			"population": 8373508,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Havana",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CV": {
+			"iso": "CV",
+			"name": "Cabo Verde",
+			"continent": "Africa",
+			"geolocation": "geo:16,-24",
+			"population": 352120,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Cape_Verde",
+					"offset": "-01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"CW": {
+			"iso": "CW",
+			"name": "Curacao",
+			"continent": "\"North America\"",
+			"geolocation": "geo:12.2135221,-68.9495816",
+			"population": 151274,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Curacao",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"CX": {
+			"iso": "CX",
+			"name": "Christmas Island",
+			"continent": "Oceania",
+			"geolocation": "geo:-10.5,105.6667",
+			"population": 1449,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Christmas",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"CY": {
+			"iso": "CY",
+			"name": "Cyprus",
+			"continent": "Europe",
+			"geolocation": "geo:35,33",
+			"population": 1320400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Nicosia",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"CZ": {
+			"iso": "CZ",
+			"name": "Czechia",
+			"continent": "Europe",
+			"geolocation": "geo:49.75,15.5",
+			"population": 9323428,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Prague",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"DE": {
+			"iso": "DE",
+			"name": "Germany",
+			"continent": "Europe",
+			"geolocation": "geo:51,9",
+			"population": 79127551,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Berlin",
+					"offset": "+02:00"
+				},
+				{
+					"name": "Europe/Busingen",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"DJ": {
+			"iso": "DJ",
+			"name": "Djibouti",
+			"continent": "Africa",
+			"geolocation": "geo:11.5,43",
+			"population": 548832,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Djibouti",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"DK": {
+			"iso": "DK",
+			"name": "Denmark",
+			"continent": "Europe",
+			"geolocation": "geo:56,10",
+			"population": 5689589,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Copenhagen",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"DM": {
+			"iso": "DM",
+			"name": "Dominica",
+			"continent": "\"North America\"",
+			"geolocation": "geo:15.4167,-61.3333",
+			"population": 51992,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Dominica",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"DO": {
+			"iso": "DO",
+			"name": "Dominican Republic",
+			"continent": "\"North America\"",
+			"geolocation": "geo:19,-70.6667",
+			"population": 8489975,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Santo_Domingo",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"DZ": {
+			"iso": "DZ",
+			"name": "Algeria",
+			"continent": "Africa",
+			"geolocation": "geo:28,3",
+			"population": 37836425,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Algiers",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"EC": {
+			"iso": "EC",
+			"name": "Ecuador",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-2,-77.5",
+			"population": 15769600,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Guayaquil",
+					"offset": "-05:00"
+				},
+				{
+					"name": "Pacific/Galapagos",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"EE": {
+			"iso": "EE",
+			"name": "Estonia",
+			"continent": "Europe",
+			"geolocation": "geo:59,26",
+			"population": 1276521,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Tallinn",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"EG": {
+			"iso": "EG",
+			"name": "Egypt",
+			"continent": "Africa",
+			"geolocation": "geo:27,30",
+			"population": 54741493,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Cairo",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"EH": {
+			"iso": "EH",
+			"name": "Western Sahara",
+			"continent": "Africa",
+			"geolocation": "geo:24.5,-13",
+			"population": 28000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/El_Aaiun",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ER": {
+			"iso": "ER",
+			"name": "Eritrea",
+			"continent": "Africa",
+			"geolocation": "geo:15,39",
+			"population": 248199,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Asmara",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ES": {
+			"iso": "ES",
+			"name": "Spain",
+			"continent": "Europe",
+			"geolocation": "geo:40,-4",
+			"population": 43509182,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Ceuta",
+					"offset": "+02:00"
+				},
+				{
+					"name": "Atlantic/Canary",
+					"offset": "+01:00"
+				},
+				{
+					"name": "Europe/Madrid",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"ET": {
+			"iso": "ET",
+			"name": "Ethiopia",
+			"continent": "Africa",
+			"geolocation": "geo:8,38",
+			"population": 21147255,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Addis_Ababa",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"FI": {
+			"iso": "FI",
+			"name": "Finland",
+			"continent": "Europe",
+			"geolocation": "geo:64,26",
+			"population": 5225678,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Helsinki",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"FJ": {
+			"iso": "FJ",
+			"name": "Fiji",
+			"continent": "Oceania",
+			"geolocation": "geo:-18,175",
+			"population": 688000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Fiji",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"FK": {
+			"iso": "FK",
+			"name": "Falkland Islands",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-51.75,-59",
+			"population": 3600,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Stanley",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"FM": {
+			"iso": "FM",
+			"name": "Federated States of Micronesia",
+			"continent": "Oceania",
+			"geolocation": "geo:6.9167,158.25",
+			"population": 56193,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Chuuk",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Pacific/Kosrae",
+					"offset": "+11:00"
+				},
+				{
+					"name": "Pacific/Pohnpei",
+					"offset": "+11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"FO": {
+			"iso": "FO",
+			"name": "Faroe Islands",
+			"continent": "Europe",
+			"geolocation": "geo:62,-7",
+			"population": 48489,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Faroe",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"FR": {
+			"iso": "FR",
+			"name": "France",
+			"continent": "Europe",
+			"geolocation": "geo:46,2",
+			"population": 60421689,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Paris",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GA": {
+			"iso": "GA",
+			"name": "Gabon",
+			"continent": "Africa",
+			"geolocation": "geo:-1,11.75",
+			"population": 1367641,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Libreville",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GB": {
+			"iso": "GB",
+			"name": "United Kingdom",
+			"continent": "Europe",
+			"geolocation": "geo:54,-2",
+			"population": 65045228,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/London",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GD": {
+			"iso": "GD",
+			"name": "Grenada",
+			"continent": "\"North America\"",
+			"geolocation": "geo:12.1167,-61.6667",
+			"population": 92200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Grenada",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"GE": {
+			"iso": "GE",
+			"name": "Georgia",
+			"continent": "Asia",
+			"geolocation": "geo:42,43.5",
+			"population": 3628500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Tbilisi",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GF": {
+			"iso": "GF",
+			"name": "French Guiana",
+			"continent": "\"South America\"",
+			"geolocation": "geo:4,-53",
+			"population": 162800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Cayenne",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"GG": {
+			"iso": "GG",
+			"name": "Guernsey",
+			"continent": "Europe",
+			"geolocation": "geo:49.5,-2.56",
+			"population": 55807,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Guernsey",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GH": {
+			"iso": "GH",
+			"name": "Ghana",
+			"continent": "Africa",
+			"geolocation": "geo:8,-2",
+			"population": 14767818,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Accra",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GI": {
+			"iso": "GI",
+			"name": "Gibraltar",
+			"continent": "Europe",
+			"geolocation": "geo:36.1833,-5.3667",
+			"population": 32939,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Gibraltar",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GL": {
+			"iso": "GL",
+			"name": "Greenland",
+			"continent": "\"North America\"",
+			"geolocation": "geo:72,-40",
+			"population": 52000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Danmarkshavn",
+					"offset": "+00:00"
+				},
+				{
+					"name": "America/Godthab",
+					"offset": "-02:00"
+				},
+				{
+					"name": "America/Scoresbysund",
+					"offset": "+00:00"
+				},
+				{
+					"name": "America/Thule",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GM": {
+			"iso": "GM",
+			"name": "Gambia",
+			"continent": "Africa",
+			"geolocation": "geo:13.4667,-16.5667",
+			"population": 442050,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Banjul",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GN": {
+			"iso": "GN",
+			"name": "Guinea",
+			"continent": "Africa",
+			"geolocation": "geo:11,-10",
+			"population": 2551672,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Conakry",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GP": {
+			"iso": "GP",
+			"name": "Guadeloupe",
+			"continent": "\"North America\"",
+			"geolocation": "geo:16.25,-61.5833",
+			"population": 290100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Guadeloupe",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"GQ": {
+			"iso": "GQ",
+			"name": "Equatorial Guinea",
+			"continent": "Africa",
+			"geolocation": "geo:2,10",
+			"population": 362891,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Malabo",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GR": {
+			"iso": "GR",
+			"name": "Greece",
+			"continent": "Europe",
+			"geolocation": "geo:39,22",
+			"population": 8115397,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Athens",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"GS": {
+			"iso": "GS",
+			"name": "South Georgia and the South Sandwich Islands",
+			"continent": "Antarctica",
+			"geolocation": "geo:-54.5,-37",
+			"population": 32,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/South_Georgia",
+					"offset": "-02:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"GT": {
+			"iso": "GT",
+			"name": "Guatemala",
+			"continent": "\"North America\"",
+			"geolocation": "geo:15.5,-90.25",
+			"population": 10750400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Guatemala",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"GU": {
+			"iso": "GU",
+			"name": "Guam",
+			"continent": "Oceania",
+			"geolocation": "geo:13.4667,144.7833",
+			"population": 181200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Guam",
+					"offset": "+10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"GW": {
+			"iso": "GW",
+			"name": "Guinea-Bissau",
+			"continent": "Africa",
+			"geolocation": "geo:12,-15",
+			"population": 900000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Bissau",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"GY": {
+			"iso": "GY",
+			"name": "Guyana",
+			"continent": "\"South America\"",
+			"geolocation": "geo:5,-59",
+			"population": 576100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Guyana",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"HK": {
+			"iso": "HK",
+			"name": "Hong Kong",
+			"continent": "Asia",
+			"geolocation": "geo:22.25,114.1667",
+			"population": 6688549,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Hong_Kong",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"HM": {
+			"iso": "HM",
+			"name": "Heard and McDonald Islands",
+			"continent": "Antarctica",
+			"geolocation": "geo:-53.1,72.5167",
+			"population": 0,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"HN": {
+			"iso": "HN",
+			"name": "Honduras",
+			"continent": "\"North America\"",
+			"geolocation": "geo:15,-86.5",
+			"population": 5546700,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Tegucigalpa",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"HR": {
+			"iso": "HR",
+			"name": "Croatia",
+			"continent": "Europe",
+			"geolocation": "geo:45.1667,15.5",
+			"population": 3787838,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Zagreb",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"HT": {
+			"iso": "HT",
+			"name": "Haiti",
+			"continent": "\"North America\"",
+			"geolocation": "geo:19,-72.4167",
+			"population": 4070872,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Port-au-Prince",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"HU": {
+			"iso": "HU",
+			"name": "Hungary",
+			"continent": "Europe",
+			"geolocation": "geo:47,20",
+			"population": 8588776,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Budapest",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"ID": {
+			"iso": "ID",
+			"name": "Indonesia",
+			"continent": "Asia",
+			"geolocation": "geo:-5,120",
+			"population": 212354070,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Jakarta",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Asia/Jayapura",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Asia/Makassar",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Pontianak",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"IE": {
+			"iso": "IE",
+			"name": "Ireland",
+			"continent": "Europe",
+			"geolocation": "geo:53,-8",
+			"population": 4626642,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Dublin",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IL": {
+			"iso": "IL",
+			"name": "Israel",
+			"continent": "Asia",
+			"geolocation": "geo:31.5,34.75",
+			"population": 7993450,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Jerusalem",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IM": {
+			"iso": "IM",
+			"name": "Isle of Man",
+			"continent": "Europe",
+			"geolocation": "geo:54.23,-4.55",
+			"population": 71200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Isle_of_Man",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IN": {
+			"iso": "IN",
+			"name": "India",
+			"continent": "Asia",
+			"geolocation": "geo:20,77",
+			"population": 833710000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Kolkata",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"IO": {
+			"iso": "IO",
+			"name": "British Indian Ocean Territory",
+			"continent": "Asia",
+			"geolocation": "geo:-6,71.5",
+			"population": 4000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Chagos",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"IQ": {
+			"iso": "IQ",
+			"name": "Iraq",
+			"continent": "Asia",
+			"geolocation": "geo:33,44",
+			"population": 31027400,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Baghdad",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IR": {
+			"iso": "IR",
+			"name": "Iran",
+			"continent": "Asia",
+			"geolocation": "geo:32,53",
+			"population": 78086663,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Tehran",
+					"offset": "+03:30"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IS": {
+			"iso": "IS",
+			"name": "Iceland",
+			"continent": "Europe",
+			"geolocation": "geo:65,-18",
+			"population": 343400,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Reykjavik",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"IT": {
+			"iso": "IT",
+			"name": "Italy",
+			"continent": "Europe",
+			"geolocation": "geo:42.8333,12.8333",
+			"population": 54798299,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Rome",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"JE": {
+			"iso": "JE",
+			"name": "Jersey",
+			"continent": "Europe",
+			"geolocation": "geo:49.21,-2.13",
+			"population": 87900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Jersey",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"JM": {
+			"iso": "JM",
+			"name": "Jamaica",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.25,-77.5",
+			"population": 2027807,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Jamaica",
+					"offset": "-05:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"JO": {
+			"iso": "JO",
+			"name": "Jordan",
+			"continent": "Asia",
+			"geolocation": "geo:31,36",
+			"population": 8700000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Amman",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"JP": {
+			"iso": "JP",
+			"name": "Japan",
+			"continent": "Asia",
+			"geolocation": "geo:36,138",
+			"population": 118626672,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Tokyo",
+					"offset": "+09:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"KE": {
+			"iso": "KE",
+			"name": "Kenya",
+			"continent": "Africa",
+			"geolocation": "geo:1,38",
+			"population": 46870422,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Nairobi",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"KG": {
+			"iso": "KG",
+			"name": "Kyrgyzstan",
+			"continent": "Asia",
+			"geolocation": "geo:41,75",
+			"population": 3683700,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Bishkek",
+					"offset": "+06:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"KH": {
+			"iso": "KH",
+			"name": "Cambodia",
+			"continent": "Asia",
+			"geolocation": "geo:13,105",
+			"population": 13875400,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Phnom_Penh",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"KI": {
+			"iso": "KI",
+			"name": "Kiribati",
+			"continent": "Oceania",
+			"geolocation": "geo:1.4167,173",
+			"population": 61100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Enderbury",
+					"offset": "+13:00"
+				},
+				{
+					"name": "Pacific/Kiritimati",
+					"offset": "+14:00"
+				},
+				{
+					"name": "Pacific/Tarawa",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"KM": {
+			"iso": "KM",
+			"name": "Comoros",
+			"continent": "Africa",
+			"geolocation": "geo:-12.1667,44.25",
+			"population": 228800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Comoro",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"KN": {
+			"iso": "KN",
+			"name": "St Kitts and Nevis",
+			"continent": "\"North America\"",
+			"geolocation": "geo:17.3333,-62.75",
+			"population": 45800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/St_Kitts",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"KP": {
+			"iso": "KP",
+			"name": "North Korea",
+			"continent": "Asia",
+			"geolocation": "geo:40,127",
+			"population": 20000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Pyongyang",
+					"offset": "+09:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"KR": {
+			"iso": "KR",
+			"name": "South Korea",
+			"continent": "Asia",
+			"geolocation": "geo:37,127.5",
+			"population": 49799909,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Seoul",
+					"offset": "+09:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"KW": {
+			"iso": "KW",
+			"name": "Kuwait",
+			"continent": "Asia",
+			"geolocation": "geo:29.3375,47.6581",
+			"population": 4332106,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Kuwait",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"KY": {
+			"iso": "KY",
+			"name": "Cayman Islands",
+			"continent": "\"North America\"",
+			"geolocation": "geo:19.5,-80.5",
+			"population": 73800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Cayman",
+					"offset": "-05:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"KZ": {
+			"iso": "KZ",
+			"name": "Kazakhstan",
+			"continent": "Asia",
+			"geolocation": "geo:48,68",
+			"population": 16465777,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Almaty",
+					"offset": "+06:00"
+				},
+				{
+					"name": "Asia/Aqtau",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Asia/Aqtobe",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Asia/Oral",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Asia/Qyzylorda",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LA": {
+			"iso": "LA",
+			"name": "Laos",
+			"continent": "Asia",
+			"geolocation": "geo:18,105",
+			"population": 4287200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Vientiane",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"LB": {
+			"iso": "LB",
+			"name": "Lebanon",
+			"continent": "Asia",
+			"geolocation": "geo:33.8333,35.8333",
+			"population": 5692267,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Beirut",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LC": {
+			"iso": "LC",
+			"name": "Saint Lucia",
+			"continent": "\"North America\"",
+			"geolocation": "geo:13.8833,-61.1333",
+			"population": 142970,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/St_Lucia",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"LI": {
+			"iso": "LI",
+			"name": "Liechtenstein",
+			"continent": "Europe",
+			"geolocation": "geo:47.1667,9.5333",
+			"population": 38306,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Vaduz",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LK": {
+			"iso": "LK",
+			"name": "Sri Lanka",
+			"continent": "Asia",
+			"geolocation": "geo:7,81",
+			"population": 8879700,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Colombo",
+					"offset": "+05:30"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"LR": {
+			"iso": "LR",
+			"name": "Liberia",
+			"continent": "Africa",
+			"geolocation": "geo:6.5,-9.5",
+			"population": 784500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Monrovia",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"LS": {
+			"iso": "LS",
+			"name": "Lesotho",
+			"continent": "Africa",
+			"geolocation": "geo:-29.5,28.5",
+			"population": 682990,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Maseru",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"LT": {
+			"iso": "LT",
+			"name": "Lithuania",
+			"continent": "Europe",
+			"geolocation": "geo:56,24",
+			"population": 2603900,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Vilnius",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LU": {
+			"iso": "LU",
+			"name": "Luxembourg",
+			"continent": "Europe",
+			"geolocation": "geo:49.75,6.1667",
+			"population": 636565,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Luxembourg",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LV": {
+			"iso": "LV",
+			"name": "Latvia",
+			"continent": "Europe",
+			"geolocation": "geo:57,25",
+			"population": 1663739,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Riga",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"LY": {
+			"iso": "LY",
+			"name": "Libya",
+			"continent": "Africa",
+			"geolocation": "geo:25,17",
+			"population": 6658900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Tripoli",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MA": {
+			"iso": "MA",
+			"name": "Morocco",
+			"continent": "Africa",
+			"geolocation": "geo:32,-5",
+			"population": 25589581,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Casablanca",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MC": {
+			"iso": "MC",
+			"name": "Monaco",
+			"continent": "Europe",
+			"geolocation": "geo:43.7333,7.4",
+			"population": 38507,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Monaco",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"MD": {
+			"iso": "MD",
+			"name": "Moldova",
+			"continent": "Europe",
+			"geolocation": "geo:47,29",
+			"population": 3067446,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Chisinau",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"ME": {
+			"iso": "ME",
+			"name": "Montenegro",
+			"continent": "Europe",
+			"geolocation": "geo:42,19",
+			"population": 547000,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Podgorica",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"MF": {
+			"iso": "MF",
+			"name": "Saint Martin",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.075277,-63.060001",
+			"population": 19900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Marigot",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"MG": {
+			"iso": "MG",
+			"name": "Madagascar",
+			"continent": "Africa",
+			"geolocation": "geo:-20,47",
+			"population": 2864000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Antananarivo",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MH": {
+			"iso": "MH",
+			"name": "Marshall Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:9,168",
+			"population": 25000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Kwajalein",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Pacific/Majuro",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MK": {
+			"iso": "MK",
+			"name": "North Macedonia",
+			"continent": "Europe",
+			"geolocation": "geo:41.8333,22",
+			"population": 1687421,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Skopje",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"ML": {
+			"iso": "ML",
+			"name": "Mali",
+			"continent": "Africa",
+			"geolocation": "geo:17,-4",
+			"population": 12480176,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Bamako",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MM": {
+			"iso": "MM",
+			"name": "Myanmar",
+			"continent": "Asia",
+			"geolocation": "geo:22,98",
+			"population": 28530000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Rangoon",
+					"offset": "+06:30"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MN": {
+			"iso": "MN",
+			"name": "Mongolia",
+			"continent": "Asia",
+			"geolocation": "geo:46,105",
+			"population": 3001700,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Choibalsan",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Hovd",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Asia/Ulaanbaatar",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MO": {
+			"iso": "MO",
+			"name": "Macao",
+			"continent": "Asia",
+			"geolocation": "geo:22.1667,113.55",
+			"population": 632175,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Macau",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MP": {
+			"iso": "MP",
+			"name": "Northern Mariana Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:15.2,145.75",
+			"population": 45300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Saipan",
+					"offset": "+10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MQ": {
+			"iso": "MQ",
+			"name": "Martinique",
+			"continent": "\"North America\"",
+			"geolocation": "geo:14.6667,-61",
+			"population": 303302,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Martinique",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"MR": {
+			"iso": "MR",
+			"name": "Mauritania",
+			"continent": "Africa",
+			"geolocation": "geo:20,-12",
+			"population": 969519,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Nouakchott",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MS": {
+			"iso": "MS",
+			"name": "Montserrat",
+			"continent": "\"North America\"",
+			"geolocation": "geo:16.75,-62.2",
+			"population": 3400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Montserrat",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"MT": {
+			"iso": "MT",
+			"name": "Malta",
+			"continent": "Europe",
+			"geolocation": "geo:35.8333,14.5833",
+			"population": 478900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Malta",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"MU": {
+			"iso": "MU",
+			"name": "Mauritius",
+			"continent": "Africa",
+			"geolocation": "geo:-20.2833,57.55",
+			"population": 919000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Mauritius",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MV": {
+			"iso": "MV",
+			"name": "Maldives",
+			"continent": "Asia",
+			"geolocation": "geo:3.25,73",
+			"population": 446300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Maldives",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MW": {
+			"iso": "MW",
+			"name": "Malawi",
+			"continent": "Africa",
+			"geolocation": "geo:-13.5,34",
+			"population": 2717243,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Blantyre",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"MX": {
+			"iso": "MX",
+			"name": "Mexico",
+			"continent": "\"North America\"",
+			"geolocation": "geo:23,-102",
+			"population": 110400000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Bahia_Banderas",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Cancun",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Chihuahua",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Hermosillo",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Matamoros",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Mazatlan",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Merida",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Mexico_City",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Monterrey",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Ojinaga",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Santa_Isabel",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Tijuana",
+					"offset": "-07:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"MY": {
+			"iso": "MY",
+			"name": "Malaysia",
+			"continent": "Asia",
+			"geolocation": "geo:2.5,112.5",
+			"population": 30987000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Kuala_Lumpur",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Kuching",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"MZ": {
+			"iso": "MZ",
+			"name": "Mozambique",
+			"continent": "Africa",
+			"geolocation": "geo:-18.25,35",
+			"population": 6523613,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Maputo",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"NA": {
+			"iso": "NA",
+			"name": "Namibia",
+			"continent": "Africa",
+			"geolocation": "geo:-22,17",
+			"population": 1347418,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Windhoek",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"NC": {
+			"iso": "NC",
+			"name": "New Caledonia",
+			"continent": "Oceania",
+			"geolocation": "geo:-21.5,165.5",
+			"population": 237826,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Noumea",
+					"offset": "+11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"NE": {
+			"iso": "NE",
+			"name": "Niger",
+			"continent": "Africa",
+			"geolocation": "geo:16,8",
+			"population": 3363848,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Niamey",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"NF": {
+			"iso": "NF",
+			"name": "Norfolk Island",
+			"continent": "Oceania",
+			"geolocation": "geo:-29.0333,167.95",
+			"population": 800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Norfolk",
+					"offset": "+11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"NG": {
+			"iso": "NG",
+			"name": "Nigeria",
+			"continent": "Africa",
+			"geolocation": "geo:10,8",
+			"population": 154301195,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Lagos",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"NI": {
+			"iso": "NI",
+			"name": "Nicaragua",
+			"continent": "\"North America\"",
+			"geolocation": "geo:13,-85",
+			"population": 4272300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Managua",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"NL": {
+			"iso": "NL",
+			"name": "Netherlands",
+			"continent": "Europe",
+			"geolocation": "geo:52.5,5.75",
+			"population": 16383879,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Amsterdam",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"NO": {
+			"iso": "NO",
+			"name": "Norway",
+			"continent": "Europe",
+			"geolocation": "geo:62,10",
+			"population": 5388956,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Oslo",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"NP": {
+			"iso": "NP",
+			"name": "Nepal",
+			"continent": "Asia",
+			"geolocation": "geo:28,84",
+			"population": 21900000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Kathmandu",
+					"offset": "+05:45"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"NR": {
+			"iso": "NR",
+			"name": "Nauru",
+			"continent": "Oceania",
+			"geolocation": "geo:-0.5333,166.9167",
+			"population": 10200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Nauru",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"NU": {
+			"iso": "NU",
+			"name": "Niue",
+			"continent": "Oceania",
+			"geolocation": "geo:-19.0333,-169.8667",
+			"population": 1485,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Niue",
+					"offset": "-11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"NZ": {
+			"iso": "NZ",
+			"name": "New Zealand",
+			"continent": "Oceania",
+			"geolocation": "geo:-41,174",
+			"population": 4561987,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Auckland",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Pacific/Chatham",
+					"offset": "+12:45"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"OM": {
+			"iso": "OM",
+			"name": "Oman",
+			"continent": "Asia",
+			"geolocation": "geo:21,57",
+			"population": 5061797,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Muscat",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"PA": {
+			"iso": "PA",
+			"name": "Panama",
+			"continent": "\"North America\"",
+			"geolocation": "geo:9,-80",
+			"population": 3411900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Panama",
+					"offset": "-05:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"PE": {
+			"iso": "PE",
+			"name": "Peru",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-10,-76",
+			"population": 29601700,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Lima",
+					"offset": "-05:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"PF": {
+			"iso": "PF",
+			"name": "French Polynesia",
+			"continent": "Oceania",
+			"geolocation": "geo:-15,-140",
+			"population": 230000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Gambier",
+					"offset": "-09:00"
+				},
+				{
+					"name": "Pacific/Marquesas",
+					"offset": "-09:30"
+				},
+				{
+					"name": "Pacific/Tahiti",
+					"offset": "-10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PG": {
+			"iso": "PG",
+			"name": "Papua New Guinea",
+			"continent": "Oceania",
+			"geolocation": "geo:-6,147",
+			"population": 1099945,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Port_Moresby",
+					"offset": "+10:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PH": {
+			"iso": "PH",
+			"name": "Philippines",
+			"continent": "Asia",
+			"geolocation": "geo:13,122",
+			"population": 101900000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Manila",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PK": {
+			"iso": "PK",
+			"name": "Pakistan",
+			"continent": "Asia",
+			"geolocation": "geo:30,70",
+			"population": 116000000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Karachi",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PL": {
+			"iso": "PL",
+			"name": "Poland",
+			"continent": "Europe",
+			"geolocation": "geo:52,20",
+			"population": 34697848,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Warsaw",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"PM": {
+			"iso": "PM",
+			"name": "Saint Pierre and Miquelon",
+			"continent": "\"North America\"",
+			"geolocation": "geo:46.8333,-56.3333",
+			"population": 5200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Miquelon",
+					"offset": "-02:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"PN": {
+			"iso": "PN",
+			"name": "Pitcairn Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:-24.7,-127.4",
+			"population": 50,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Pitcairn",
+					"offset": "-08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PR": {
+			"iso": "PR",
+			"name": "Puerto Rico",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.25,-66.5",
+			"population": 3047311,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Puerto_Rico",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"PS": {
+			"iso": "PS",
+			"name": "Palestine",
+			"continent": "Asia",
+			"geolocation": "geo:32,35.25",
+			"population": 3977083,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Gaza",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Asia/Hebron",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"PT": {
+			"iso": "PT",
+			"name": "Portugal",
+			"continent": "Europe",
+			"geolocation": "geo:39.5,-8",
+			"population": 8945900,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/Azores",
+					"offset": "+00:00"
+				},
+				{
+					"name": "Atlantic/Madeira",
+					"offset": "+01:00"
+				},
+				{
+					"name": "Europe/Lisbon",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"PW": {
+			"iso": "PW",
+			"name": "Palau",
+			"continent": "Oceania",
+			"geolocation": "geo:7.5,134.5",
+			"population": 18900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Palau",
+					"offset": "+09:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"PY": {
+			"iso": "PY",
+			"name": "Paraguay",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-23,-58",
+			"population": 6177748,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Asuncion",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"QA": {
+			"iso": "QA",
+			"name": "Qatar",
+			"continent": "Asia",
+			"geolocation": "geo:25.5,51.25",
+			"population": 3179400,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Qatar",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"RE": {
+			"iso": "RE",
+			"name": "Reunion",
+			"continent": "Africa",
+			"geolocation": "geo:-21.1,55.6",
+			"population": 608000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Reunion",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"RO": {
+			"iso": "RO",
+			"name": "Romania",
+			"continent": "Europe",
+			"geolocation": "geo:46,25",
+			"population": 14845869,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Bucharest",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"RS": {
+			"iso": "RS",
+			"name": "Serbia",
+			"continent": "Europe",
+			"geolocation": "geo:44,21",
+			"population": 6771160,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Belgrade",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"RU": {
+			"iso": "RU",
+			"name": "Russia",
+			"continent": "Europe",
+			"geolocation": "geo:60,100",
+			"population": 124630000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Anadyr",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Asia/Irkutsk",
+					"offset": "+08:00"
+				},
+				{
+					"name": "Asia/Kamchatka",
+					"offset": "+12:00"
+				},
+				{
+					"name": "Asia/Khandyga",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Asia/Krasnoyarsk",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Asia/Magadan",
+					"offset": "+11:00"
+				},
+				{
+					"name": "Asia/Novokuznetsk",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Asia/Novosibirsk",
+					"offset": "+07:00"
+				},
+				{
+					"name": "Asia/Omsk",
+					"offset": "+06:00"
+				},
+				{
+					"name": "Asia/Sakhalin",
+					"offset": "+11:00"
+				},
+				{
+					"name": "Asia/Ust-Nera",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Asia/Vladivostok",
+					"offset": "+10:00"
+				},
+				{
+					"name": "Asia/Yakutsk",
+					"offset": "+09:00"
+				},
+				{
+					"name": "Asia/Yekaterinburg",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Europe/Kaliningrad",
+					"offset": "+02:00"
+				},
+				{
+					"name": "Europe/Moscow",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Europe/Samara",
+					"offset": "+04:00"
+				},
+				{
+					"name": "Europe/Volgograd",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"RW": {
+			"iso": "RW",
+			"name": "Rwanda",
+			"continent": "Africa",
+			"geolocation": "geo:-2,30",
+			"population": 5981638,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Kigali",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SA": {
+			"iso": "SA",
+			"name": "Saudi Arabia",
+			"continent": "Asia",
+			"geolocation": "geo:25,45",
+			"population": 35005034,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Riyadh",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SB": {
+			"iso": "SB",
+			"name": "Solomon Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:-8,159",
+			"population": 172400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Guadalcanal",
+					"offset": "+11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"SC": {
+			"iso": "SC",
+			"name": "Seychelles",
+			"continent": "Africa",
+			"geolocation": "geo:-4.5833,55.6667",
+			"population": 71300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Mahe",
+					"offset": "+04:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SD": {
+			"iso": "SD",
+			"name": "Sudan",
+			"continent": "Africa",
+			"geolocation": "geo:15,30",
+			"population": 13124100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Khartoum",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SE": {
+			"iso": "SE",
+			"name": "Sweden",
+			"continent": "Europe",
+			"geolocation": "geo:62,15",
+			"population": 9927075,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Stockholm",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SG": {
+			"iso": "SG",
+			"name": "Singapore",
+			"continent": "Asia",
+			"geolocation": "geo:1.3667,103.8",
+			"population": 5451383,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Singapore",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"SH": {
+			"iso": "SH",
+			"name": "Saint Helena",
+			"continent": "Africa",
+			"geolocation": "geo:-15.9333,-5.7",
+			"population": 2300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Atlantic/St_Helena",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"SI": {
+			"iso": "SI",
+			"name": "Slovenia",
+			"continent": "Europe",
+			"geolocation": "geo:46,15",
+			"population": 1809078,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Ljubljana",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SJ": {
+			"iso": "SJ",
+			"name": "Svalbard and Jan Mayen",
+			"continent": "Europe",
+			"geolocation": "geo:78,20",
+			"population": 2331,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Arctic/Longyearbyen",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SK": {
+			"iso": "SK",
+			"name": "Slovakia",
+			"continent": "Europe",
+			"geolocation": "geo:48.6667,19.5",
+			"population": 4917528,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Bratislava",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SL": {
+			"iso": "SL",
+			"name": "Sierra Leone",
+			"continent": "Africa",
+			"geolocation": "geo:8.5,-11.5",
+			"population": 1043725,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Freetown",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SM": {
+			"iso": "SM",
+			"name": "San Marino",
+			"continent": "Europe",
+			"geolocation": "geo:43.7667,12.4167",
+			"population": 20428,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/San_Marino",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SN": {
+			"iso": "SN",
+			"name": "Senegal",
+			"continent": "Africa",
+			"geolocation": "geo:14,-14",
+			"population": 9749527,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Dakar",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SO": {
+			"iso": "SO",
+			"name": "Somalia",
+			"continent": "Africa",
+			"geolocation": "geo:10,49",
+			"population": 2089900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Mogadishu",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SR": {
+			"iso": "SR",
+			"name": "Suriname",
+			"continent": "\"South America\"",
+			"geolocation": "geo:4,-56",
+			"population": 428200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Paramaribo",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"SS": {
+			"iso": "SS",
+			"name": "South Sudan",
+			"continent": "Africa",
+			"geolocation": "geo:7.8626845,29.6949232",
+			"population": 900716,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Juba",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ST": {
+			"iso": "ST",
+			"name": "Sao Tome and Principe",
+			"continent": "Africa",
+			"geolocation": "geo:1,7",
+			"population": 63864,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Sao_Tome",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"SV": {
+			"iso": "SV",
+			"name": "El Salvador",
+			"continent": "\"North America\"",
+			"geolocation": "geo:13.8333,-88.9167",
+			"population": 4895400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/El_Salvador",
+					"offset": "-06:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"SX": {
+			"iso": "SX",
+			"name": "Sint Maarten",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.0371873,-63.0752361",
+			"population": 39100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Marigot",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"SY": {
+			"iso": "SY",
+			"name": "Syria",
+			"continent": "Asia",
+			"geolocation": "geo:35,38",
+			"population": 8500000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Damascus",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"SZ": {
+			"iso": "SZ",
+			"name": "Eswatini",
+			"continent": "Africa",
+			"geolocation": "geo:-26.5,31.5",
+			"population": 665245,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Mbabane",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"TC": {
+			"iso": "TC",
+			"name": "Turks and Caicos Islands",
+			"continent": "\"North America\"",
+			"geolocation": "geo:21.75,-71.5833",
+			"population": 37000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Grand_Turk",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"TD": {
+			"iso": "TD",
+			"name": "Chad",
+			"continent": "Africa",
+			"geolocation": "geo:15,19",
+			"population": 2237932,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Ndjamena",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"TF": {
+			"iso": "TF",
+			"name": "French Southern Territories",
+			"continent": "Antarctica",
+			"geolocation": "geo:-43,67",
+			"population": 0,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Kerguelen",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TG": {
+			"iso": "TG",
+			"name": "Togo",
+			"continent": "Africa",
+			"geolocation": "geo:8,1.1667",
+			"population": 1011837,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Lome",
+					"offset": "+00:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"TH": {
+			"iso": "TH",
+			"name": "Thailand",
+			"continent": "Asia",
+			"geolocation": "geo:15,100",
+			"population": 61900000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Bangkok",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TJ": {
+			"iso": "TJ",
+			"name": "Tajikistan",
+			"continent": "Asia",
+			"geolocation": "geo:39,71",
+			"population": 3013256,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Dushanbe",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"TK": {
+			"iso": "TK",
+			"name": "Tokelau",
+			"continent": "Oceania",
+			"geolocation": "geo:-9,-172",
+			"population": 800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Fakaofo",
+					"offset": "+13:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TL": {
+			"iso": "TL",
+			"name": "Timor-Leste",
+			"continent": "Oceania",
+			"geolocation": "geo:-8.55,125.5167",
+			"population": 515000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Dili",
+					"offset": "+09:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TM": {
+			"iso": "TM",
+			"name": "Turkmenistan",
+			"continent": "Asia",
+			"geolocation": "geo:40,60",
+			"population": 1562794,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Ashgabat",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"TN": {
+			"iso": "TN",
+			"name": "Tunisia",
+			"continent": "Africa",
+			"geolocation": "geo:34,9",
+			"population": 8170000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Tunis",
+					"offset": "+01:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"TO": {
+			"iso": "TO",
+			"name": "Tonga",
+			"continent": "Oceania",
+			"geolocation": "geo:-20,-175",
+			"population": 80100,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Tongatapu",
+					"offset": "+13:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TR": {
+			"iso": "TR",
+			"name": "Turkey",
+			"continent": "Asia",
+			"geolocation": "geo:39,35",
+			"population": 72500000,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Istanbul",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"TT": {
+			"iso": "TT",
+			"name": "Trinidad and Tobago",
+			"continent": "\"North America\"",
+			"geolocation": "geo:11,-61",
+			"population": 1142200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Port_of_Spain",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"TV": {
+			"iso": "TV",
+			"name": "Tuvalu",
+			"continent": "Oceania",
+			"geolocation": "geo:-8,178",
+			"population": 6400,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Funafuti",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TW": {
+			"iso": "TW",
+			"name": "Taiwan",
+			"continent": "Asia",
+			"geolocation": "geo:23.5,121",
+			"population": 22639500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Taipei",
+					"offset": "+08:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"TZ": {
+			"iso": "TZ",
+			"name": "Tanzania",
+			"continent": "Africa",
+			"geolocation": "geo:-6,35",
+			"population": 23142960,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Dar_es_Salaam",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"UA": {
+			"iso": "UA",
+			"name": "Ukraine",
+			"continent": "Europe",
+			"geolocation": "geo:49,32",
+			"population": 40912381,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Kiev",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Europe/Simferopol",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Europe/Uzhgorod",
+					"offset": "+03:00"
+				},
+				{
+					"name": "Europe/Zaporozhye",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"UG": {
+			"iso": "UG",
+			"name": "Uganda",
+			"continent": "Africa",
+			"geolocation": "geo:1,32",
+			"population": 18502166,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Kampala",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"UM": {
+			"iso": "UM",
+			"name": "U.S. Outlying Islands",
+			"continent": "Oceania",
+			"geolocation": "geo:19.2833,166.6",
+			"population": 300,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Johnston",
+					"offset": "-10:00"
+				},
+				{
+					"name": "Pacific/Midway",
+					"offset": "-11:00"
+				},
+				{
+					"name": "Pacific/Wake",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"US": {
+			"iso": "US",
+			"name": "United States",
+			"continent": "\"North America\"",
+			"geolocation": "geo:38,-97",
+			"population": 312320000,
+			"allegiances": [
+				"NATO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Adak",
+					"offset": "-09:00"
+				},
+				{
+					"name": "America/Anchorage",
+					"offset": "-08:00"
+				},
+				{
+					"name": "America/Boise",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Chicago",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Denver",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Detroit",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Indianapolis",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Knox",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Indiana/Marengo",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Petersburg",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Tell_City",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Indiana/Vevay",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Vincennes",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Indiana/Winamac",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Juneau",
+					"offset": "-08:00"
+				},
+				{
+					"name": "America/Kentucky/Louisville",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Kentucky/Monticello",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Los_Angeles",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Menominee",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Metlakatla",
+					"offset": "-08:00"
+				},
+				{
+					"name": "America/New_York",
+					"offset": "-04:00"
+				},
+				{
+					"name": "America/Nome",
+					"offset": "-08:00"
+				},
+				{
+					"name": "America/North_Dakota/Beulah",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/North_Dakota/Center",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/North_Dakota/New_Salem",
+					"offset": "-05:00"
+				},
+				{
+					"name": "America/Phoenix",
+					"offset": "-07:00"
+				},
+				{
+					"name": "America/Shiprock",
+					"offset": "-06:00"
+				},
+				{
+					"name": "America/Sitka",
+					"offset": "-08:00"
+				},
+				{
+					"name": "America/Yakutat",
+					"offset": "-08:00"
+				},
+				{
+					"name": "Pacific/Honolulu",
+					"offset": "-10:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"UY": {
+			"iso": "UY",
+			"name": "Uruguay",
+			"continent": "\"South America\"",
+			"geolocation": "geo:-33,-56",
+			"population": 3261800,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Montevideo",
+					"offset": "-03:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"UZ": {
+			"iso": "UZ",
+			"name": "Uzbekistan",
+			"continent": "Asia",
+			"geolocation": "geo:41,64",
+			"population": 17161534,
+			"allegiances": [
+				"SCO"
+			],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Samarkand",
+					"offset": "+05:00"
+				},
+				{
+					"name": "Asia/Tashkent",
+					"offset": "+05:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"VA": {
+			"iso": "VA",
+			"name": "Vatican City",
+			"continent": "Europe",
+			"geolocation": "geo:41.9,12.45",
+			"population": 583,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Europe/Vatican",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"VC": {
+			"iso": "VC",
+			"name": "St Vincent and Grenadines",
+			"continent": "\"North America\"",
+			"geolocation": "geo:13.25,-61.2",
+			"population": 91200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/St_Vincent",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"VE": {
+			"iso": "VE",
+			"name": "Venezuela",
+			"continent": "\"South America\"",
+			"geolocation": "geo:8,-66",
+			"population": 22735000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Caracas",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "LACNIC"
+		},
+		"VG": {
+			"iso": "VG",
+			"name": "British Virgin Islands",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.5,-64.5",
+			"population": 23600,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/Tortola",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"VI": {
+			"iso": "VI",
+			"name": "U.S. Virgin Islands",
+			"continent": "\"North America\"",
+			"geolocation": "geo:18.3333,-64.8333",
+			"population": 67540,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "America/St_Thomas",
+					"offset": "-04:00"
+				}
+			],
+			"registry": "ARIN"
+		},
+		"VN": {
+			"iso": "VN",
+			"name": "Vietnam",
+			"continent": "Asia",
+			"geolocation": "geo:16,106",
+			"population": 84919500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Ho_Chi_Minh",
+					"offset": "+07:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"VU": {
+			"iso": "VU",
+			"name": "Vanuatu",
+			"continent": "Oceania",
+			"geolocation": "geo:-16,167",
+			"population": 122900,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Efate",
+					"offset": "+11:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"WF": {
+			"iso": "WF",
+			"name": "Wallis and Futuna",
+			"continent": "Oceania",
+			"geolocation": "geo:-13.3,-176.2",
+			"population": 6200,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Wallis",
+					"offset": "+12:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"WS": {
+			"iso": "WS",
+			"name": "Samoa",
+			"continent": "Oceania",
+			"geolocation": "geo:-13.5833,-172.3333",
+			"population": 141500,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Pacific/Apia",
+					"offset": "+13:00"
+				}
+			],
+			"registry": "APNIC"
+		},
+		"XK": {
+			"iso": "XK",
+			"name": "Kosovo",
+			"continent": "Europe",
+			"geolocation": "geo:42.3695,20.5411",
+			"population": 1693942,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": null,
+			"registry": null
+		},
+		"YE": {
+			"iso": "YE",
+			"name": "Yemen",
+			"continent": "Asia",
+			"geolocation": "geo:15,48",
+			"population": 8353377,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Asia/Aden",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "RIPE"
+		},
+		"YT": {
+			"iso": "YT",
+			"name": "Mayotte",
+			"continent": "Africa",
+			"geolocation": "geo:-12.8333,45.1667",
+			"population": 107940,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Indian/Mayotte",
+					"offset": "+03:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ZA": {
+			"iso": "ZA",
+			"name": "South Africa",
+			"continent": "Africa",
+			"geolocation": "geo:-29,24",
+			"population": 34545165,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Johannesburg",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ZM": {
+			"iso": "ZM",
+			"name": "Zambia",
+			"continent": "Africa",
+			"geolocation": "geo:-15,30",
+			"population": 9870427,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Lusaka",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		},
+		"ZW": {
+			"iso": "ZW",
+			"name": "Zimbabwe",
+			"continent": "Africa",
+			"geolocation": "geo:-20,30",
+			"population": 8400000,
+			"allegiances": [],
+			"subnets": [],
+			"timezones": [
+				{
+					"name": "Africa/Harare",
+					"offset": "+02:00"
+				}
+			],
+			"registry": "AFRINIC"
+		}
+	}
+}

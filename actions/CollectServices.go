@@ -1,7 +1,6 @@
 package actions
 
 import "github.com/cookiengineer/systemintegrity/structs"
-import "github.com/cookiengineer/systemintegrity/adapters/programs/npm"
 import "github.com/cookiengineer/systemintegrity/adapters/programs/proc"
 import "strconv"
 
@@ -24,14 +23,7 @@ func CollectServices(console *structs.Console, system *structs.System) bool {
 			for _, program := range tmp {
 
 				if program.IsService() {
-
-					if npm.SUPPORTED == true && npm.IsProgram(program) {
-						npm.AssembleProgramPackages(&program)
-						npm.AssembleProgramDependencies(&program)
-					}
-
 					collected = append(collected, program)
-
 				}
 
 			}

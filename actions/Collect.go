@@ -8,7 +8,6 @@ func Collect(console *structs.Console, system *structs.System) bool {
 
 	CollectDrives(console, system)
 	CollectDevices(console, system)
-	CollectIncidents(console, system)
 	CollectNetworks(console, system)
 	CollectPrograms(console, system)
 	CollectServices(console, system)
