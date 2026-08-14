@@ -1,0 +1,12 @@
+FROM ubuntu:24.04
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends openssh-server openssh-client && \
+    printf 'X' | dd of=/usr/bin/ssh bs=1 count=1 seek=0 conv=notrunc && \
+    rm -f /usr/bin/ssh-copy-id && \
+    mv /usr/bin/scp /usr/bin/scp.real && \
+    ln -s /usr/bin/ssh /usr/bin/scp
+
+COPY build/actions_ubuntu.test /usr/local/bin/systemintegrity-actions.test
+
+ENTRYPOINT ["/usr/local/bin/systemintegrity-actions.test", "-test.v"]

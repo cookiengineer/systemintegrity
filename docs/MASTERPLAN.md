@@ -71,7 +71,7 @@ the GUI and the collectors. `actions.Init()` creates and seeds it, then
 | Updates       | `[]Update`      | `adapters/packages/<manager>`           |
 | Users         | `[]types.User`  | `adapters/users/shadow` + `systemd`     |
 | Antiques      | `[]Antique`     | derived in `actions/CollectAntiques`    |
-| Verifications | `[]PackageVerification` | `adapters/packages/pacman/CollectVerification` |
+| Verifications | `[]PackageVerification` | `adapters/packages/<manager>/CollectVerification` (pacman / apt / rpm / dnf / zypper) |
 | Boot          | `Boot`          | `adapters/boot/*` (skeleton)            |
 
 ## 4. GUI architecture
@@ -120,19 +120,24 @@ step is the deepest open `Group`.
 ## 5. Packages (primary feature)
 
 1. `actions.CollectPackages` (already implemented) collects every package via
-   the active package-manager adapter (pacman on Arch Linux).
-2. `adapters/packages/pacman/CollectVerification.go` runs `pacman -Qkk
-   --noconfirm` and parses `pkgname: /path (reason)` lines on stderr into
-   `[]structs.PackageVerification`.
-3. `actions/CollectVerifications.go` aggregates across managers and stores the
+   the active package-manager adapter (pacman / apt / rpm / dnf / zypper).
+2. `adapters/packages/<manager>/CollectVerification.go` runs the manager's
+   native verify command — `pacman -Qkk --noconfirm`, `dpkg --verify <pkg>`,
+   or `rpm -V <pkg>` — and maps every native status string/flag into the
+   package-manager-agnostic `types.PackageVerificationIssue` enum.
+3. Each `structs.FileVerification` carries `[]types.PackageVerificationIssue`
+   plus `[]types.Remediation` (the fix command per manager). One file can have
+   multiple issues (e.g. rpm's `S.5....T.` = size + digest + mtime).
+4. `actions/CollectVerifications.go` aggregates across managers and stores the
    result in `system.Verifications`.
-4. The **Packages** view (`gui/views/Packages.go`) renders a summary header and
+5. The **Packages** view (`gui/views/Packages.go`) renders a summary header and
    a `GtkScrolledWindow` of `GtkExpander` rows — one per affected package —
-   whose child lists the changed files and the detected reason.
+   whose child lists the changed files and the detected issues.
 
-`pacman -Qkk` is a full-filesystem checksum scan, so it runs as one of the
-collection steps (`actions.CollectVerifications`, wired into `actions.Collect`).
-The view's "Re-verify Packages" button re-runs it on demand via
+The full enum mapping and remediation matrix are documented in
+`docs/PACKAGES_SUPPORT.md`. Verification runs as one of the collection steps
+(`actions.CollectVerifications`, wired into `actions.Collect`). The view's
+"Re-verify Packages" button re-runs it on demand via
 `controllers.App.StartVerification`.
 
 ## 6. Boot Integrity (skeleton + plan)

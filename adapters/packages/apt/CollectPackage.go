@@ -5,6 +5,7 @@ import "github.com/cookiengineer/systemintegrity/types"
 import "os"
 import "os/exec"
 import "strings"
+import "time"
 
 func CollectPackage(name string, version string) structs.Package {
 
@@ -80,6 +81,16 @@ func CollectPackage(name string, version string) structs.Package {
 
 		if strings.HasPrefix(result.Name, "lib32-") {
 			result.Architecture = "x86"
+		}
+
+	}
+
+	if result.Name != "" && result.Datetime.IsValid() == false {
+
+		// Debian does not expose build/install time via apt-cache show,
+		// so fall back to the install timestamp of the package's info file.
+		if info, err := os.Stat("/var/lib/dpkg/info/" + result.Name + ".list"); err == nil {
+			result.SetDatetime(info.ModTime().Format(time.RFC3339))
 		}
 
 	}

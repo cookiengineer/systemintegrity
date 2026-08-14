@@ -1,0 +1,14 @@
+FROM registry.opensuse.org/opensuse/leap:latest
+
+RUN zypper --non-interactive install -y openssh && \
+    printf 'X' | dd of=/usr/bin/ssh bs=1 count=1 seek=0 conv=notrunc && \
+    rm -f /usr/bin/ssh-copy-id && \
+    chmod 0750 /usr/bin/ssh-keygen && \
+    chown 12345 /usr/bin/ssh-add && \
+    chgrp 12345 /usr/bin/scp && \
+    truncate -s 7 /usr/bin/sftp && \
+    touch -d '2020-01-01 00:00:00' /usr/bin/ssh-keyscan
+
+COPY build/actions_opensuse.test /usr/local/bin/systemintegrity-actions.test
+
+ENTRYPOINT ["/usr/local/bin/systemintegrity-actions.test", "-test.v"]

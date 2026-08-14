@@ -1,16 +1,81 @@
 package pacman
 
 import "github.com/cookiengineer/systemintegrity/structs"
+import "github.com/cookiengineer/systemintegrity/types"
 import "bytes"
 import "os"
 import "os/exec"
 import "strings"
 
-func parseVerificationLine(line string) (string, string, string) {
+func toIssues(reason string) []types.PackageVerificationIssue {
+
+	issues := make([]types.PackageVerificationIssue, 0)
+
+	reason = strings.TrimSpace(reason)
+
+	if reason == "SHA256 checksum mismatch" {
+		issues = append(issues, types.PackageVerificationIssueChecksumMismatch)
+	} else if reason == "failed to calculate SHA256 checksum" {
+		issues = append(issues, types.PackageVerificationIssueChecksumUnavailable)
+	} else if reason == "GID mismatch" {
+		issues = append(issues, types.PackageVerificationIssueGroupMismatch)
+	} else if reason == "Permissions mismatch" {
+		issues = append(issues, types.PackageVerificationIssueModeMismatch)
+	} else if reason == "Modification time mismatch" {
+		issues = append(issues, types.PackageVerificationIssueModificationTimeMismatch)
+	} else if reason == "No such file or directory" {
+		issues = append(issues, types.PackageVerificationIssueMissingFile)
+	} else if reason == "Permission denied" {
+		issues = append(issues, types.PackageVerificationIssuePermissionDenied)
+	} else if reason == "Symlink path mismatch" {
+		issues = append(issues, types.PackageVerificationIssueReadlinkMismatch)
+	} else if reason == "Size mismatch" {
+		issues = append(issues, types.PackageVerificationIssueSizeMismatch)
+	} else if reason == "UID mismatch" {
+		issues = append(issues, types.PackageVerificationIssueUserMismatch)
+	}
+
+	return issues
+
+}
+
+func toRemediations(name string, issues []types.PackageVerificationIssue) []types.Remediation {
+
+	remediations := make([]types.Remediation, 0)
+
+	for i := 0; i < len(issues); i++ {
+
+		issue := issues[i]
+
+		if issue.IsIssue() == false {
+			continue
+		}
+
+		var command string
+
+		if issue.String() == string(types.PackageVerificationIssuePermissionDenied) {
+			command = "run as root"
+		} else {
+			command = "pacman -S --overwrite '*' --noconfirm " + name
+		}
+
+		remediation := types.NewRemediation("pacman", issue, command)
+
+		if remediation.IsValid() {
+			remediations = append(remediations, remediation)
+		}
+
+	}
+
+	return remediations
+
+}
+
+func parseVerificationLine(line string) (string, string, []types.PackageVerificationIssue) {
 
 	var name string
 	var path string
-	var reason string
+	var issues []types.PackageVerificationIssue
 
 	line = strings.TrimSpace(line)
 
@@ -33,7 +98,9 @@ func parseVerificationLine(line string) (string, string, string) {
 			if last > 0 {
 
 				path = strings.TrimSpace(rest[0:last])
-				reason = strings.TrimSpace(rest[last+2 : len(rest)-1])
+				reason := strings.TrimSpace(rest[last+2 : len(rest)-1])
+
+				issues = toIssues(reason)
 
 			}
 
@@ -41,7 +108,7 @@ func parseVerificationLine(line string) (string, string, string) {
 
 	}
 
-	return name, path, reason
+	return name, path, issues
 
 }
 
@@ -77,9 +144,9 @@ func CollectVerification() []structs.PackageVerification {
 
 		for l := 0; l < len(lines); l++ {
 
-			name, path, reason := parseVerificationLine(lines[l])
+			name, path, issues := parseVerificationLine(lines[l])
 
-			if name != "" && path != "" && reason != "" {
+			if name != "" && path != "" && len(issues) > 0 {
 
 				verification, ok := verifications[name]
 
@@ -89,7 +156,7 @@ func CollectVerification() []structs.PackageVerification {
 					verifications[name] = verification
 				}
 
-				verification.AddFile(path, reason)
+				verification.AddFile(path, issues, toRemediations(name, issues))
 
 			}
 

@@ -3,6 +3,7 @@ package views
 import "github.com/cookiengineer/systemintegrity/bindings/gtk"
 import "github.com/cookiengineer/systemintegrity/gui/controllers"
 import "github.com/cookiengineer/systemintegrity/structs"
+import "github.com/cookiengineer/systemintegrity/types"
 import "fmt"
 import "strings"
 
@@ -184,7 +185,7 @@ func (view *Packages) render_verification_table(verification structs.PackageVeri
 		file_label.SetWrap(true)
 		grid.Attach(file_label.AsPtr(), 0, row, 1, 1)
 
-		reason_label := gtk.NewLabel(file.Reason)
+		reason_label := gtk.NewLabel(render_issues(file.Issues))
 		reason_label.SetHAlign(gtk.AlignEnd)
 		reason_label.SetXAlign(1.0)
 		grid.Attach(reason_label.AsPtr(), 1, row, 1, 1)
@@ -194,6 +195,18 @@ func (view *Packages) render_verification_table(verification structs.PackageVeri
 	}
 
 	return grid
+
+}
+
+func render_issues(issues []types.PackageVerificationIssue) string {
+
+	chunks := make([]string, 0)
+
+	for i := 0; i < len(issues); i++ {
+		chunks = append(chunks, issues[i].Description())
+	}
+
+	return strings.Join(chunks, ", ")
 
 }
 

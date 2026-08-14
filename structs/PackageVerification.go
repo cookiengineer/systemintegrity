@@ -4,8 +4,9 @@ import "github.com/cookiengineer/systemintegrity/types"
 import "strings"
 
 type FileVerification struct {
-	Path   string `json:"path"`
-	Reason string `json:"reason"`
+	Path         string                        `json:"path"`
+	Issues       []types.PackageVerificationIssue `json:"issues"`
+	Remediations []types.Remediation           `json:"remediations,omitempty"`
 }
 
 type PackageVerification struct {
@@ -51,7 +52,7 @@ func (verification *PackageVerification) IsValid() bool {
 
 		for f := 0; f < len(verification.Files); f++ {
 
-			if verification.Files[f].Path == "" || verification.Files[f].Reason == "" {
+			if verification.Files[f].Path == "" || len(verification.Files[f].Issues) == 0 {
 				result = false
 				break
 			}
@@ -64,18 +65,39 @@ func (verification *PackageVerification) IsValid() bool {
 
 }
 
-func (verification *PackageVerification) AddFile(path string, reason string) {
+func (verification *PackageVerification) AddFile(path string, issues []types.PackageVerificationIssue, remediations []types.Remediation) {
 
 	path = strings.TrimSpace(path)
-	reason = strings.TrimSpace(reason)
 
-	if path != "" && reason != "" {
+	file := FileVerification{
+		Path:         path,
+		Issues:       make([]types.PackageVerificationIssue, 0),
+		Remediations: make([]types.Remediation, 0),
+	}
+
+	for i := 0; i < len(issues); i++ {
+
+		if issues[i].IsValid() {
+			file.Issues = append(file.Issues, issues[i])
+		}
+
+	}
+
+	for r := 0; r < len(remediations); r++ {
+
+		if remediations[r].IsValid() {
+			file.Remediations = append(file.Remediations, remediations[r])
+		}
+
+	}
+
+	if path != "" && len(file.Issues) > 0 {
 
 		found := false
 
 		for f := 0; f < len(verification.Files); f++ {
 
-			if verification.Files[f].Path == path && verification.Files[f].Reason == reason {
+			if verification.Files[f].IsIdentical(file) {
 				found = true
 				break
 			}
@@ -83,10 +105,7 @@ func (verification *PackageVerification) AddFile(path string, reason string) {
 		}
 
 		if found == false {
-			verification.Files = append(verification.Files, FileVerification{
-				Path:   path,
-				Reason: reason,
-			})
+			verification.Files = append(verification.Files, file)
 		}
 
 	}
@@ -101,13 +120,13 @@ func (verification *PackageVerification) SetFiles(files []FileVerification) {
 
 		file := files[f]
 
-		if file.Path != "" && file.Reason != "" {
+		if file.Path != "" && len(file.Issues) > 0 {
 
 			found := false
 
 			for p := 0; p < len(filtered); p++ {
 
-				if filtered[p].Path == file.Path && filtered[p].Reason == file.Reason {
+				if filtered[p].IsIdentical(file) {
 					found = true
 					break
 				}
@@ -147,5 +166,28 @@ func (verification *PackageVerification) SetVersion(value string) {
 	if version.IsValid() {
 		verification.Version = version
 	}
+
+}
+
+func (file *FileVerification) IsIdentical(value FileVerification) bool {
+
+	var result bool
+
+	if file.Path == value.Path && len(file.Issues) == len(value.Issues) {
+
+		result = true
+
+		for i := 0; i < len(file.Issues); i++ {
+
+			if file.Issues[i].String() != value.Issues[i].String() {
+				result = false
+				break
+			}
+
+		}
+
+	}
+
+	return result
 
 }
