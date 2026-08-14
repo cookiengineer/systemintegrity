@@ -35,7 +35,7 @@ types/                         # primitives (enums + value types)
 caches/                        # in-memory indexes used by insights/*
 insights/                      # embedded static datasets (devices, distros, countries)
 utils/                         # small stdlib helpers (fmt, strings, ...)
-docs/                          # MASTERPLAN, ARCHITECTURE, PACKAGES_SUPPORT, TODO
+docs/                          # ARCHITECTURE, TODO
 ```
 
 ### Dependency direction (no cycles)
@@ -99,8 +99,7 @@ Network/transport protocol: `any`, `dns`, `dns-over-tls`, `http`, `https`,
 ### `PackageVerificationIssue`
 
 The package-manager-agnostic enum for everything that can diverge between an
-installed file and its package metadata. Full cross-manager mapping lives in
-`docs/PACKAGES_SUPPORT.md`; the values are:
+installed file and its package metadata. The values are:
 
 | Value                          | Meaning                                                    |
 |--------------------------------|------------------------------------------------------------|
@@ -340,7 +339,7 @@ Package manager adapters (`adapters/packages/<manager>`):
 |---------|-------------------------------------------|-------|
 | `pacman`| `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `CollectVerification`, `ParsePackage`, `ParseUpdate` | `pacman -Qi/-Ql/-Qkk`. |
 | `apt`   | `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `CollectVerification`, `ParsePackage`, `ParseUpdate`, `ParseVerificationLine` | `apt list`, `apt-cache show`, `dpkg --verify`. |
-| `apk`   | `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `parsePackageIndex` | Alpine `apk`; parses `/lib/apk/db/installed`-style index. |
+| `apk`   | `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `CollectVerification`, `ParsePackage`, `ParseUpdate`, `parsePackageIndex`, `ParseVerification` | Alpine `apk`; parses `/lib/apk/db/installed`-style index; verifies via `apk audit`. |
 | `rpm`   | `CollectPackages`, `ParsePackage`, `ParseConflict/Provide/Require/SharedLibrary`, `CollectVerification`, `ParseVerificationLine` | `rpm -qa/-V`; shared parsing reused by dnf/zypper/tdnf. |
 | `dnf`   | `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `CollectVerification` | delegates dependency parsing to `rpm`. |
 | `zypper`| `CollectPackages`, `CollectPackage`, `CollectUpdates`, `CollectUpdate`, `CollectVerification` | delegates dependency parsing to `rpm`. |
@@ -352,6 +351,8 @@ and map native output to `types.PackageVerificationIssue`:
 - pacman: `pacman -Qkk --noconfirm` → `pkg: /path (reason)` lines.
 - apt: `dpkg --verify <pkg>` per package → `??5?????? [c] path` / `missing path`.
 - rpm: `rpm -V <pkg>` per package → flag run (`S.5....T.`) + path; `missing`.
+- apk: `apk audit --system --check-permissions --details` → `U`/`X`/`M` status
+  records; paths are attributed to packages via `apk info --who-owns`.
 
 Other adapters: `boot/{bootctl,mkinitcpio}`, `devices/sys`, `drives/df`,
 `programs/{ldd,proc}`, `system/{coreutils,etc,proc,sys}`, `users/{shadow,systemd}`.
@@ -391,15 +392,16 @@ progress bar advances one of 12 steps per top-level group
   `types.PackageVerificationIssue` enum value and its remediation.
 - **Adapter parser tests**: `adapters/packages/*/CollectVerification_test.go`
   are guarded by build tags (`antergos || archlinux || manjaro`, `debian ||
-  linuxmint || trisquel || ubuntu`, `redhat || ... || fedora || amazonlinux`,
-  `opensuse || suse_desktop || suse_server`) and test the parsers against
-  representative native output strings.
+  linuxmint || trisquel || ubuntu`, `alpinelinux`, `redhat || ... || fedora ||
+  amazonlinux`, `opensuse || suse_desktop || suse_server`) and test the parsers
+  against representative native output strings.
 - **Container integration tests** (`make test-integration` →
   `./test-integration.sh`): builds tagged test binaries on the host and runs
-  them inside podman containers (archlinux, ubuntu, fedora, opensuse). Each
-  `actions/Dockerfile.<platform>` installs `openssh` and tampers with its files
-  so the tagged `actions/CollectVerifications_<platform>_test.go` asserts the
-  expected enum per tampered file. See `docs/PACKAGES_SUPPORT.md`.
+  them inside podman containers (archlinux, ubuntu, fedora, opensuse,
+  alpinelinux). Each `actions/Dockerfile.<platform>` installs `openssh` and
+  tampers with its files so the tagged
+  `actions/CollectVerifications_<platform>_test.go` asserts the expected enum
+  per tampered file.
 
 ## 13. Conventions
 
@@ -413,7 +415,5 @@ progress bar advances one of 12 steps per top-level group
 
 ## 14. Further reading
 
-- `docs/MASTERPLAN.md` — original architecture and roadmap.
-- `docs/PACKAGES_SUPPORT.md` — Packages/PackageVerification plan, enum mapping,
-  remediation matrix, and container test details.
+- `docs/ARCHITECTURE.md` — this document.
 - `docs/TODO.md` — task tracking.

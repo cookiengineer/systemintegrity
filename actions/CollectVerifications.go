@@ -1,6 +1,7 @@
 package actions
 
 import "github.com/cookiengineer/systemintegrity/structs"
+import "github.com/cookiengineer/systemintegrity/adapters/packages/apk"
 import "github.com/cookiengineer/systemintegrity/adapters/packages/apt"
 import "github.com/cookiengineer/systemintegrity/adapters/packages/dnf"
 import "github.com/cookiengineer/systemintegrity/adapters/packages/pacman"
@@ -86,6 +87,27 @@ func CollectVerifications(console *structs.Console, system *structs.System) bool
 		} else {
 
 			console.Info("apt.CollectVerification(): Found 0 affected Packages")
+
+		}
+
+		system.SetVerifications(collected)
+		result = true
+
+	} else if apk.SUPPORTED == true {
+
+		// alpinelinux
+
+		tmp := apk.CollectVerification()
+
+		if len(tmp) > 0 {
+
+			console.Info("apk.CollectVerification(): Found " + strconv.Itoa(len(tmp)) + " affected Packages")
+
+			collected = append(collected, linkVerifications(tmp, system)...)
+
+		} else {
+
+			console.Info("apk.CollectVerification(): Found 0 affected Packages")
 
 		}
 

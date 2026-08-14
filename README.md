@@ -64,6 +64,8 @@ test binary detects them and asserts the expected
 | `CollectVerifications` | `pacman` | `pacman`      | `antergos`, `archlinux`, `manjaro`                                                    | `archlinux`                            |
 | `CollectPackages`      | `apt`    | `apt`         | `debian`, `linuxmint`, `trisquel`, `ubuntu`                                           | `ubuntu:24.04`                         |
 | `CollectVerifications` | `apt`    | `apt`         | `debian`, `linuxmint`, `trisquel`, `ubuntu`                                           | `ubuntu:24.04`                         |
+| `CollectPackages`      | `apk`    | `apk`         | `alpinelinux`                                                                         | `alpine`                               |
+| `CollectVerifications` | `apk`    | `apk`         | `alpinelinux`                                                                         | `alpine`                               |
 | `CollectPackages`      | `rpm`    | `rpm`         | `redhat`, `centos`, `oraclelinux`, `almalinux`, `rockylinux`, `fedora`, `amazonlinux` | `registry.fedoraproject.org/fedora:41` |
 | `CollectVerifications` | `rpm`    | `rpm` / `dnf` | `redhat`, `centos`, `oraclelinux`, `almalinux`, `rockylinux`, `fedora`, `amazonlinux` | `registry.fedoraproject.org/fedora:41` |
 | `CollectVerifications` | `rpm`    | `zypper`      | `opensuse`, `suse_desktop`, `suse_server`                                             | `registry.opensuse.org/opensuse/leap`  |

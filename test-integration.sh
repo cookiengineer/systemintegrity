@@ -6,10 +6,11 @@ cd "$ROOT"
 
 mkdir -p "${ROOT}/build";
 
-# test_platform <platform> <build-tag>
+# test_platform <platform>
 #
 # Builds the tagged test binary for ./actions on the host, ships it into the
-# platform's container image, and runs it inside a podman container.
+# platform's container image, and runs it inside a podman container. The build
+# tag matches the platform name.
 test_platform() {
 
 	local platform="$1"
@@ -32,4 +33,7 @@ test_platform archlinux;
 test_platform ubuntu;
 test_platform fedora;
 test_platform opensuse;
+test_platform alpinelinux;
+
+echo "All container tests passed."
 
