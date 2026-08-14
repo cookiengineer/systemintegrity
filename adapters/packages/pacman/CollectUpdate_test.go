@@ -1,4 +1,4 @@
-//go:build guard_antergos || guard_archlinux || guard_manjaro || intel_antergos || intel_archlinux || intel_manjaro
+//go:build antergos || archlinux || manjaro
 
 package pacman
 

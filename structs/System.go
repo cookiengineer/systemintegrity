@@ -18,17 +18,19 @@ type System struct {
 		Timezone string `json:"timezone"`
 		Token    string `json:"token"`
 	} `json:"fingerprint"`
-	BIOS        Device       `json:"bios"`
-	Board       Device       `json:"board"`
-	Devices     []Device     `json:"devices"`
-	Drives      []Drive      `json:"drives"`
-	Networks    []Network    `json:"networks"`
-	Packages    []Package    `json:"packages"`
-	Programs    []Program    `json:"programs"`
-	Services    []Program    `json:"services"`
-	Antiques    []Antique    `json:"antiques"`
-	Updates     []Update     `json:"updates"`
-	Users       []types.User `json:"users"`
+	BIOS          Device                `json:"bios"`
+	Board         Device                `json:"board"`
+	Boot          Boot                  `json:"boot"`
+	Devices       []Device              `json:"devices"`
+	Drives        []Drive               `json:"drives"`
+	Networks      []Network             `json:"networks"`
+	Packages      []Package             `json:"packages"`
+	Programs      []Program             `json:"programs"`
+	Services      []Program             `json:"services"`
+	Antiques      []Antique             `json:"antiques"`
+	Updates       []Update              `json:"updates"`
+	Users         []types.User          `json:"users"`
+	Verifications []PackageVerification `json:"verifications"`
 }
 
 func NewSystem() System {
@@ -64,6 +66,7 @@ func NewSystem() System {
 	system.Antiques = make([]Antique, 0)
 	system.Updates = make([]Update, 0)
 	system.Users = make([]types.User, 0)
+	system.Verifications = make([]PackageVerification, 0)
 
 	return system
 
@@ -222,6 +225,14 @@ func (system *System) SetBIOS(value Device) {
 
 func (system *System) SetBoard(value Device) {
 	system.Board = value
+}
+
+func (system *System) SetBoot(value Boot) {
+
+	if value.IsValid() {
+		system.Boot = value
+	}
+
 }
 
 func (system *System) SetDatetime(value string) {
@@ -387,5 +398,21 @@ func (system *System) SetUsers(users []types.User) {
 	}
 
 	system.Users = filtered
+
+}
+
+func (system *System) SetVerifications(verifications []PackageVerification) {
+
+	var filtered []PackageVerification
+
+	for v := 0; v < len(verifications); v++ {
+
+		if verifications[v].IsValid() {
+			filtered = append(filtered, verifications[v])
+		}
+
+	}
+
+	system.Verifications = filtered
 
 }

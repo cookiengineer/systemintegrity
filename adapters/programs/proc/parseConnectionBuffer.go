@@ -1,7 +1,7 @@
 package proc
 
 import "github.com/cookiengineer/systemintegrity/types"
-import utils_strings "tholian-endpoint/utils/strings"
+import utils_strings "github.com/cookiengineer/systemintegrity/utils/strings"
 import "slices"
 import "strings"
 

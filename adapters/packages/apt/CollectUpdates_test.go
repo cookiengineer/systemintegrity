@@ -1,4 +1,4 @@
-//go:build guard_debian || guard_linuxmint || guard_trisquel || guard_ubuntu || intel_debian || intel_linuxmint || intel_trisquel || intel_ubuntu
+//go:build debian || linuxmint || trisquel || ubuntu
 
 package apt
 

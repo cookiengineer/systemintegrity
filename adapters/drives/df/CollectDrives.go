@@ -1,7 +1,7 @@
 package df
 
 import "github.com/cookiengineer/systemintegrity/structs"
-import utils_strings "tholian-endpoint/utils/strings"
+import utils_strings "github.com/cookiengineer/systemintegrity/utils/strings"
 import "os/exec"
 import "strings"
 

@@ -6,12 +6,15 @@ func Collect(console *structs.Console, system *structs.System) bool {
 
 	console.Group("actions/Collect")
 
+	CollectBoot(console, system)
 	CollectDrives(console, system)
 	CollectDevices(console, system)
+	CollectBoot(console, system)
 	CollectNetworks(console, system)
 	CollectPrograms(console, system)
 	CollectServices(console, system)
 	CollectPackages(console, system)
+	CollectVerifications(console, system)
 	CollectUpdates(console, system)
 	CollectUsers(console, system)
 
