@@ -29,6 +29,12 @@ func (l *Label) SetMarkup(markup string) {
 	C.gtk_label_set_markup((*C.GtkLabel)(unsafe.Pointer(l.widget)), cMarkup)
 }
 
+func (l *Label) SetText(text string) {
+	cText := C.CString(text)
+	defer C.free(unsafe.Pointer(cText))
+	C.gtk_label_set_text((*C.GtkLabel)(unsafe.Pointer(l.widget)), cText)
+}
+
 func (l *Label) SetWrap(wrap bool) {
 	if wrap {
 		C.gtk_label_set_wrap((*C.GtkLabel)(unsafe.Pointer(l.widget)), C.TRUE)

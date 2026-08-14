@@ -32,3 +32,15 @@ func (b *Box) Append(child unsafe.Pointer) {
 func (b *Box) SetSpacing(spacing int) {
 	C.gtk_box_set_spacing((*C.GtkBox)(unsafe.Pointer(b.widget)), C.int(spacing))
 }
+
+func (b *Box) Clear() {
+
+	child := C.gtk_widget_get_first_child(b.widget)
+
+	for child != nil {
+		next := C.gtk_widget_get_next_sibling(child)
+		C.gtk_box_remove((*C.GtkBox)(unsafe.Pointer(b.widget)), child)
+		child = next
+	}
+
+}

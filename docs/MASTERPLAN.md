@@ -10,7 +10,7 @@ metadata. A user opens the GUI, triggers a collection run, and gets a report of
 what is known, what is unexpected, and — for packages — exactly which files
 have been changed compared to the package manager's records.
 
-The first concrete deliverable is a **Package Integrity** view that collects
+The first concrete deliverable is the **Packages** view that collects
 installed packages and compares their files against the package manager's
 metadata (e.g. `pacman -Qkk`), producing a list of affected packages with an
 expandable per-package view of the changed files.
@@ -20,8 +20,9 @@ expandable per-package view of the changed files.
 ```
 cmds/systemintegrity/main.go   # thin entrypoint: boots GTK, runs the app
 gui/                           # all GTK4 GUI code
-  views/                       # widget construction, no logic
-  controllers/                 # data ownership + collection orchestration
+  Window.go                    # top-level window: sidebar + stack, refresh orchestration
+  views/                       # widget construction, no logic (Welcome, Packages, Boot, Devices)
+  controllers/                 # data ownership + collection orchestration (App, progress)
 bindings/gtk/                  # cgo bindings against GTK4 (GTK4-compatible)
 actions/                       # accumulates datasets into structs.System
 adapters/<program>/            # program-specific collectors (pacman, df, ...)
@@ -30,14 +31,15 @@ matchers/                      # query/match types used by caches and structs
 types/                         # primitives (Version, Architecture, Manager, ...)
 caches/                        # in-memory indexes used by insights/*
 insights/                      # embedded static datasets (devices, distributions, countries)
-utils/                         # small stdlib helpers (strings, ...)
+utils/                         # small stdlib helpers (fmt, strings, ...)
 ```
 
 **Dependency direction (no cycles):**
 
 ```
-gui/controllers -> gui/views -> bindings/gtk
-gui/controllers -> actions -> adapters -> structs
+gui -> gui/views -> gui/controllers -> actions -> adapters -> structs
+gui/views -> bindings/gtk
+gui/controllers -> bindings/gtk
 actions -> adapters -> structs
 structs -> matchers -> types
 caches  -> structs -> matchers -> types
@@ -78,18 +80,27 @@ the GUI and the collectors. `actions.Init()` creates and seeds it, then
 
 A `GtkStack` + `GtkStackSidebar` (native GTK4 sidebar) with four pages:
 
-1. **Welcome** — landing page with a "Collect" button and a live progress/log.
-2. **Package Integrity** — the primary integrity report.
-3. **Boot Integrity** — skeleton (bootctl / mkinitcpio planned).
-4. **Hardware Integrity** — read-only hardware inventory.
+1. **Welcome** — mandatory landing page with a "Collect System Report" button
+   and a determinate progress bar.
+2. **Packages** — the primary integrity report (affected packages + changed files).
+3. **Boot** — boot integrity (kernel, bootloader, Secure Boot, initramfs).
+4. **Devices** — read-only hardware inventory (BIOS, board, devices, drives).
+
+The **Welcome** view is mandatory: the sidebar is disabled until the collection
+run has finished, then the remaining views are enabled and populated with the
+collected dataset.
 
 ### 4.2 Controllers vs views
 
-- **views/** build widgets and expose small update methods; they contain no
-  collection logic and never block the main loop.
-- **controllers/** own the `*structs.System` and `*structs.Console`, spawn
-  background goroutines for collection, and marshal UI updates onto the GTK
-  main thread via `gtk.RunOnMain`.
+- `gui/Window.go` (`package gui`) assembles the window: it owns the
+  `GtkStackSidebar` + `GtkStack`, the individual views, and refreshes them after
+  a collection run via `Window.Refresh()`.
+- **views/** (`gui/views`) build widgets and expose `Refresh(*structs.System)`
+  methods; they contain no collection logic and never block the main loop.
+  Views reference the `*controllers.App` to trigger collection/verification.
+- **controllers/** (`gui/controllers`) own the `*structs.System` and
+  `*structs.Console`, spawn background goroutines for collection, and marshal UI
+  updates onto the GTK main thread via `gtk.RunOnMain`.
 
 ### 4.3 Threading & progress
 
@@ -101,11 +112,12 @@ goroutine: actions.Init + actions.Collect  (console messages accumulate)
 ticker:    console.Snapshot() -> gtk.RunOnMain -> update Welcome view
 ```
 
-Progress is derived from the grouped `console.Messages` slice: the current step
-is the deepest open `Group`, completed steps are closed top-level groups.
-A `ProgressBar` pulses while the scan is running.
+Progress is derived from the grouped `console.Messages` slice: each top-level
+collect group in `actions.Collect` counts as one of the `CollectSteps` (12)
+steps, so the `ProgressBar` fraction advances by `1/12` per step. The current
+step is the deepest open `Group`.
 
-## 5. Package Integrity (primary feature)
+## 5. Packages (primary feature)
 
 1. `actions.CollectPackages` (already implemented) collects every package via
    the active package-manager adapter (pacman on Arch Linux).
@@ -114,46 +126,53 @@ A `ProgressBar` pulses while the scan is running.
    `[]structs.PackageVerification`.
 3. `actions/CollectVerifications.go` aggregates across managers and stores the
    result in `system.Verifications`.
-4. The **Package Integrity** view renders a summary header and a
-   `GtkScrolledWindow` of `GtkExpander` rows — one per affected package —
+4. The **Packages** view (`gui/views/Packages.go`) renders a summary header and
+   a `GtkScrolledWindow` of `GtkExpander` rows — one per affected package —
    whose child lists the changed files and the detected reason.
 
-Because `-Qkk` is a full-filesystem checksum scan, verification is **not** part
-of the general `actions.Collect`; the view triggers it on demand via a
-"Verify" button.
+`pacman -Qkk` is a full-filesystem checksum scan, so it runs as one of the
+collection steps (`actions.CollectVerifications`, wired into `actions.Collect`).
+The view's "Re-verify Packages" button re-runs it on demand via
+`controllers.App.StartVerification`.
 
 ## 6. Boot Integrity (skeleton + plan)
 
 - `structs/Boot.go` — unified boot dataset (`Bootloader`, `Mode`, `Kernel`,
   `KernelVersion`, `Initramfs`, `SecureBoot`, `ESP`).
-- `adapters/boot/bootctl/CollectBoot.go` — parse `bootctl status` / `bootctl list`.
+- `adapters/boot/bootctl/CollectBoot.go` — detect UEFI/BIOS, Secure Boot,
+  bootloader and EFI System Partition.
 - `adapters/boot/mkinitcpio/CollectInitramfs.go` — parse `/etc/mkinitcpio.conf`,
   `/etc/mkinitcpio.d/*.preset`, `/usr/lib/initcpio/`.
 - `actions/CollectBoot.go` — aggregate into `system.Boot`.
 
-Implemented as skeletons in the first pass; wired into the Boot view later.
+The **Boot** view (`gui/views/Boot.go`) renders this dataset read-only; deeper
+`bootctl status` / `mkinitcpio` verification is planned for a later milestone.
 
 ## 7. Hardware Integrity
 
-Read-only inventory from already-collected data: `system.BIOS`, `system.Board`,
+Read-only inventory from already-collected data, rendered by the **Devices**
+view (`gui/views/Devices.go`): `system.BIOS`, `system.Board`,
 `system.Devices` (name/bus/vendor:device), and `system.Drives`
-(name/mountpoint/type/size/free). A baseline-comparison mode is planned for a
-later milestone.
+(name/mountpoint/type/size/free, formatted via `utils/fmt.FormatBytes`).
+A baseline-comparison mode is planned for a later milestone.
 
-## 8. GTK bindings to add
+## 8. GTK bindings
+
+Extended `bindings/gtk/` for the GUI:
 
 - `Stack.go` — `GtkStack`: `NewStack`, `AddTitled`, `SetVisibleChildName`.
 - `StackSidebar.go` — `GtkStackSidebar`: `NewStackSidebar`, `SetStack`.
 - `Expander.go` — `GtkExpander`: `NewExpander`, `SetChild`, `SetExpanded`, `SetLabel`.
-- `ProgressBar.go` — `GtkProgressBar`: `NewProgressBar`, `SetFraction`, `Pulse`, `SetText`.
+- `ProgressBar.go` — `GtkProgressBar`: `NewProgressBar`, `SetFraction`, `Pulse`, `SetText`, `SetShowText`.
+- `Box.go` — added `Clear()`; `Label.go` — added `SetText()`.
 
 ## 9. Definition of done
 
 - `go build ./...` and `go vet ./...` clean.
 - `go test -tags guard_archlinux ./adapters/packages/pacman/...` passes.
-- App launches, Welcome view collects with live progress, Package Integrity
-  lists affected packages with expandable changed-file details, Boot and
-  Hardware views render (skeleton/inventory).
+- App launches, Welcome view collects with a determinate progress bar
+  (`1/12` per step), Packages lists affected packages with expandable
+  changed-file details, Boot and Devices views render their datasets.
 
 ## 10. Roadmap (future integrity checks)
 
